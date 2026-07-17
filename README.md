@@ -111,7 +111,7 @@ nl2sql-366/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-username/nl2sql-366.git
+git clone https://github.com/alfahim-fuyad/nl2sql_milestone2
 
 cd nl2sql-366
 ```
@@ -297,7 +297,7 @@ Result:
 
 - GROUP BY with HAVING clause
 
-- Larger WikiSQL dataset (80,000+ examples)
+- Larger WikiSQL dataset (100k+ examples)
 
 - HMM and MLP classifier comparison
 

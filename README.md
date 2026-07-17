@@ -3,7 +3,7 @@
 A lightweight Python-based system that converts plain English questions into SQL queries and returns database results — without manual SQL writing.
 
 **Course:** CSE366 Artificial Intelligence  
-**Section:** 5 & 6  
+**Section:** 5  
 **Milestone:** 2  
 
 ---

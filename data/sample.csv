@@ -1,0 +1,11 @@
+Name,Age,Gender,Department,Salary,GPA,District
+Alice,22,Female,CSE,35000,3.8,Dhaka
+Bob,25,Male,EEE,42000,3.5,Chittagong
+Carol,21,Female,CSE,31000,3.9,Dhaka
+David,28,Male,BBA,55000,3.2,Sylhet
+Eva,23,Female,EEE,38000,3.7,Dhaka
+Frank,30,Male,CSE,60000,3.1,Rajshahi
+Grace,24,Female,BBA,45000,3.6,Dhaka
+Henry,26,Male,CSE,52000,3.4,Chittagong
+Iris,22,Female,EEE,33000,3.8,Sylhet
+Jack,29,Male,BBA,58000,3.0,Dhaka

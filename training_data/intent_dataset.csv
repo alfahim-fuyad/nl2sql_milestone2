@@ -1,0 +1,5005 @@
+question,intent
+get max budget of products,MAX
+lowest population of records,MIN
+what is the maximum population,MAX
+smallest gpa in records,MIN
+biggest weight in records,MAX
+average distance of products where duration is greater than 38,AVG
+how many products with grade equal to active,COUNT
+mean weight of students,AVG
+minimum value of temperature,MIN
+show records older than 42,SELECT
+what is the maximum distance,MAX
+combined population of patients,SUM
+minimum salary where country is A,MIN
+tell me how many patients,COUNT
+what is the max revenue,MAX
+average duration by city,AVG
+sum rating of all employees,SUM
+how many employees where population is less than 85,COUNT
+what is the sum of distance,SUM
+fetch orders where income is higher than 69,SELECT
+min duration of records from Female,MIN
+display all employees,SELECT
+average revenue of products,AVG
+average height of records from A,AVG
+sum of experience,SUM
+find max gpa of orders,MAX
+get all students,SELECT
+find the total age,SUM
+get max salary of employees,MAX
+count employees where city is EEE,COUNT
+what is the total marks,SUM
+average experience by type,AVG
+combined price of records,SUM
+lowest experience of products,MIN
+calculate total distance,SUM
+min quantity of students from BBA,MIN
+what is the sum of distance,SUM
+add up all height,SUM
+total students in B,COUNT
+how many products with gender equal to Dhaka,COUNT
+calculate total experience,SUM
+sum temperature of all students,SUM
+find min distance of students,MIN
+list products where city equals Dhaka,SELECT
+list all products,SELECT
+total revenue of employees,SUM
+how many products have marks more than 11,COUNT
+sum of height where type is CSE,SUM
+what is the min score,MIN
+get records where price exceeds 10,SELECT
+top quantity value,MAX
+min population among orders,MIN
+show me all orders,SELECT
+least distance of orders,MIN
+mean income of patients,AVG
+top salary value,MAX
+max height of employees from B,MAX
+find orders aged over 8,SELECT
+minimum temperature,MIN
+average age for each category,AVG
+show orders older than 27,SELECT
+maximum temperature,MAX
+show records below 19 weight,SELECT
+tell me how many records,COUNT
+what is avg revenue of orders,AVG
+give me all records,SELECT
+highest income value in orders,MAX
+give me all orders,SELECT
+add up all price,SUM
+total marks for orders,SUM
+mean weight where gender is EEE,AVG
+mean rating of records,AVG
+count all records,COUNT
+calculate total salary,SUM
+retrieve all students,SELECT
+list all students from inactive,SELECT
+number of students with temperature above 31,COUNT
+average experience per district,AVG
+what is avg rating of orders,AVG
+find the total gpa,SUM
+how many orders have quantity more than 92,COUNT
+lowest marks value in students,MIN
+display orders under 71 marks,SELECT
+highest budget of records,MAX
+count products where duration greater than 20,COUNT
+avg quantity of orders,AVG
+number of products with duration above 72,COUNT
+show records with population more than 45,SELECT
+display students where height is less than 23,SELECT
+avg temperature of orders,AVG
+minimum salary,MIN
+find the mean gpa of all students,AVG
+find products from A,SELECT
+average rating of patients,AVG
+maximum value of duration,MAX
+count all patients,COUNT
+min age of patients from BBA,MIN
+what is the total salary,SUM
+lowest duration of patients,MIN
+count all patients,COUNT
+how many records have income more than 48,COUNT
+who has the highest distance,MAX
+fetch patients where revenue is higher than 29,SELECT
+how many employees with category equal to Dhaka,COUNT
+smallest experience in students,MIN
+who has the lowest salary,MIN
+find the mean height of all orders,AVG
+show records where income is CSE,SELECT
+show students where experience is at least 25,SELECT
+how many orders are there,COUNT
+list all records,SELECT
+find the total budget,SUM
+sum all temperature,SUM
+show products with district BBA,SELECT
+how many students from inactive,COUNT
+smallest distance in records,MIN
+lowest population of employees,MIN
+biggest temperature in records,MAX
+count records of patients,COUNT
+list employees where income between 84 and 73,SELECT
+minimum value of temperature,MIN
+mean value of temperature,AVG
+sum of salary where region is BBA,SUM
+biggest quantity in records,MAX
+show orders older than 84,SELECT
+sum of marks where level is B,SUM
+summation of weight,SUM
+get min age of employees,MIN
+lowest rating of employees,MIN
+combined income of records,SUM
+total salary by city,SUM
+show me all employees,SELECT
+total income from B,SUM
+list all records,SELECT
+count students where budget is below 44,COUNT
+average weight of products where quantity is greater than 95,AVG
+calculate average experience,AVG
+highest salary of employees,MAX
+what is the average height,AVG
+highest marks of students,MAX
+compute average revenue,AVG
+what is the minimum weight,MIN
+highest experience value in products,MAX
+mean gpa where status is CSE,AVG
+number of patients older than 66,COUNT
+largest gpa in records,MAX
+total height from Male,SUM
+average price by district,AVG
+find highest gpa,MAX
+count all records,COUNT
+average rating of records,AVG
+what is the maximum height,MAX
+who has the highest experience,MAX
+avg salary of employees,AVG
+what is the max duration,MAX
+minimum value of weight,MIN
+mean value of score,AVG
+count records where distance greater than 42,COUNT
+average age per status,AVG
+average age for each city,AVG
+lowest marks of patients,MIN
+biggest height in records,MAX
+find employees from B,SELECT
+number of products older than 52,COUNT
+min price among students,MIN
+what is the minimum rating,MIN
+min age among orders,MIN
+min distance among products,MIN
+find max temperature of employees,MAX
+what is the lowest rating,MIN
+display patients where marks is less than 91,SELECT
+least temperature of students,MIN
+what is the minimum age,MIN
+compute average income,AVG
+find the total height,SUM
+what is the average gpa,AVG
+lowest duration of products,MIN
+average experience by city,AVG
+min experience among students,MIN
+sum all score,SUM
+count patients where score greater than 70,COUNT
+lowest price of orders,MIN
+largest income in students,MAX
+biggest score in records,MAX
+show records with quantity more than 42,SELECT
+total duration by region,SUM
+count all products,COUNT
+show students with price above 30,SELECT
+count all records,COUNT
+maximum value of budget,MAX
+min experience of employees from Female,MIN
+sum all marks,SUM
+how many products are there,COUNT
+list orders where height between 59 and 5,SELECT
+what is the max age,MAX
+count all students,COUNT
+find patients aged over 30,SELECT
+get records where experience exceeds 39,SELECT
+list all products,SELECT
+what is the maximum score,MAX
+show orders older than 4,SELECT
+biggest budget in records,MAX
+what is the max height,MAX
+find max distance of patients,MAX
+total patients in B,COUNT
+who has the lowest quantity,MIN
+mean value of weight,AVG
+find total duration of orders,SUM
+count orders with type Male,COUNT
+min marks of products from CSE,MIN
+biggest duration in records,MAX
+who has the lowest experience,MIN
+average marks of orders,AVG
+what is the average price,AVG
+what is the min duration,MIN
+average experience per category,AVG
+minimum salary where level is CSE,MIN
+show me all records,SELECT
+sum of weight where region is Female,SUM
+find the lowest population,MIN
+maximum value of salary,MAX
+avg distance of students,AVG
+top population value,MAX
+find the highest experience,MAX
+how many records where distance is less than 94,COUNT
+what is the max quantity,MAX
+what is the mean salary,AVG
+average temperature per district,AVG
+total number of records,COUNT
+total population by country,SUM
+find average income of orders,AVG
+count records where quantity is below 35,COUNT
+list all employees,SELECT
+show records with height more than 1,SELECT
+number of records older than 55,COUNT
+least score of products,MIN
+sum temperature of all orders,SUM
+max duration of students from EEE,MAX
+get all orders,SELECT
+sum of budget,SUM
+sum of experience where category is active,SUM
+show orders with gender equal to Female,SELECT
+find highest marks,MAX
+mean distance of orders,AVG
+fetch orders where age is higher than 35,SELECT
+count patients from Female,COUNT
+highest height value in orders,MAX
+biggest marks in records,MAX
+find patients where type is inactive,SELECT
+sum population of orders from Dhaka,SUM
+what is avg experience of orders,AVG
+count all employees,COUNT
+lowest price of students,MIN
+find the highest duration,MAX
+count records with type EEE,COUNT
+find orders from Female,SELECT
+what is the max experience,MAX
+list all students,SELECT
+find the lowest budget,MIN
+get students where weight exceeds 28,SELECT
+who has the highest gpa,MAX
+find products aged over 100,SELECT
+total distance of students,SUM
+avg quantity of students,AVG
+display products under 98 budget,SELECT
+list records where category equals active,SELECT
+smallest income in records,MIN
+count products where grade is EEE,COUNT
+sum all population,SUM
+least age of orders,MIN
+count products where duration is below 50,COUNT
+calculate total score,SUM
+what is the average gpa,AVG
+find all orders where temperature is greater than 79,SELECT
+how many patients where budget is less than 62,COUNT
+count all employees,COUNT
+count students from Dhaka,COUNT
+sum price of orders from B,SUM
+how many orders are there,COUNT
+how many orders where marks is less than 83,COUNT
+what is the maximum budget,MAX
+find students where category is EEE,SELECT
+what is the highest revenue,MAX
+count records where quantity greater than 57,COUNT
+total score from inactive,SUM
+show records with height more than 89,SELECT
+find total price of patients,SUM
+average price by status,AVG
+total duration for students,SUM
+average revenue for each status,AVG
+show me all records,SELECT
+largest income in records,MAX
+count all records,COUNT
+show patients with type Dhaka,SELECT
+average salary of orders where temperature is greater than 69,AVG
+what is the total income,SUM
+what is the sum of height,SUM
+total quantity by country,SUM
+count records of records,COUNT
+display all students,SELECT
+combined experience of patients,SUM
+what is the maximum quantity,MAX
+mean score of patients,AVG
+how many patients,COUNT
+what is the minimum gpa,MIN
+show products with grade Dhaka,SELECT
+top population value,MAX
+what is the average revenue,AVG
+sum of distance where branch is B,SUM
+find the lowest rating,MIN
+average income per branch,AVG
+show orders with weight above 27,SELECT
+overall age of orders,SUM
+sum budget of all patients,SUM
+count records with department Female,COUNT
+show records with district inactive,SELECT
+top age value,MAX
+what is the average gpa,AVG
+find the highest distance,MAX
+lowest weight value in orders,MIN
+who has the lowest population,MIN
+find the lowest rating,MIN
+what is the lowest salary,MIN
+total number of records,COUNT
+least salary of employees,MIN
+combined salary of records,SUM
+top revenue value,MAX
+find the total age,SUM
+find min population of students,MIN
+total budget by district,SUM
+maximum value of population,MAX
+count students where revenue greater than 36,COUNT
+total count of records,COUNT
+largest experience in employees,MAX
+display patients under 40 age,SELECT
+sum of population where district is BBA,SUM
+sum of height,SUM
+count all records,COUNT
+find highest price,MAX
+find records from Female,SELECT
+get records where duration exceeds 3,SELECT
+total number of products,COUNT
+minimum value of height,MIN
+total gpa for products,SUM
+sum of experience,SUM
+total students in A,COUNT
+how many patients,COUNT
+how many orders with grade equal to inactive,COUNT
+highest weight of orders,MAX
+what is the lowest score,MIN
+average budget for each gender,AVG
+minimum value of temperature,MIN
+min age of employees from active,MIN
+calculate average budget,AVG
+calculate total gpa,SUM
+count orders with gender EEE,COUNT
+get max age of employees,MAX
+sum all marks,SUM
+mean value of experience,AVG
+total budget for students,SUM
+total marks for records,SUM
+maximum value of quantity,MAX
+list employees where temperature between 82 and 58,SELECT
+number of products older than 9,COUNT
+what is the lowest quantity,MIN
+fetch employees where temperature is higher than 2,SELECT
+count records of records,COUNT
+display orders where population is less than 18,SELECT
+sum of duration,SUM
+find all students where gpa is greater than 8,SELECT
+count records of records,COUNT
+sum of rating where type is B,SUM
+maximum value of gpa,MAX
+show all orders,SELECT
+show students with city equal to Male,SELECT
+how many patients with branch equal to Dhaka,COUNT
+list products where city equals Dhaka,SELECT
+list all students,SELECT
+fetch students where duration is higher than 70,SELECT
+count employees from BBA,COUNT
+fetch patients where score is higher than 78,SELECT
+highest revenue value in records,MAX
+find the mean duration of all orders,AVG
+get employees where height exceeds 70,SELECT
+average weight by country,AVG
+get max income of patients,MAX
+mean experience where level is BBA,AVG
+average age per department,AVG
+what is avg revenue of products,AVG
+min weight of patients from active,MIN
+get max score of employees,MAX
+bottom weight value,MIN
+retrieve all students,SELECT
+show orders where duration is Dhaka,SELECT
+total count of records,COUNT
+compute average rating,AVG
+who has the highest score,MAX
+mean duration of employees,AVG
+maximum experience where country is CSE,MAX
+who has the highest age,MAX
+lowest experience value in products,MIN
+what is the sum of population,SUM
+total population from Female,SUM
+what is the min height,MIN
+list all patients from CSE,SELECT
+highest income value in employees,MAX
+find all employees where population is greater than 87,SELECT
+get max score of records,MAX
+show me all employees,SELECT
+count records where population is below 80,COUNT
+max gpa among employees,MAX
+show all employees,SELECT
+number of products with gpa above 31,COUNT
+summation of age,SUM
+find the lowest marks,MIN
+find min experience of orders,MIN
+what is the average temperature,AVG
+count products from CSE,COUNT
+maximum value of rating,MAX
+mean value of rating,AVG
+find average experience of products,AVG
+find total income of products,SUM
+average distance of orders,AVG
+add up all score,SUM
+what is the highest budget,MAX
+average quantity of orders,AVG
+maximum budget,MAX
+what is the mean marks,AVG
+count patients where duration greater than 48,COUNT
+total gpa where height is greater than 59,SUM
+display records under 88 revenue,SELECT
+avg score of patients,AVG
+what is the min budget,MIN
+find total weight of students,SUM
+total price from active,SUM
+how many records,COUNT
+mean revenue of orders,AVG
+largest temperature in records,MAX
+count all orders,COUNT
+what is the minimum revenue,MIN
+what is the lowest score,MIN
+maximum experience,MAX
+sum all marks,SUM
+top marks value,MAX
+get products where salary exceeds 65,SELECT
+give me all orders,SELECT
+mean gpa of records,AVG
+mean value of gpa,AVG
+highest height value in employees,MAX
+find highest age,MAX
+list records where grade equals BBA,SELECT
+sum of revenue,SUM
+find all students where height is greater than 50,SELECT
+lowest score value in orders,MIN
+show products with experience above 33,SELECT
+add up all price,SUM
+minimum value of revenue,MIN
+total count of orders,COUNT
+what is the min price,MIN
+add up all revenue,SUM
+average price of records from Female,AVG
+how many products from Dhaka,COUNT
+calculate average duration,AVG
+max score among records,MAX
+mean value of marks,AVG
+how many employees where income is less than 56,COUNT
+find min age of orders,MIN
+smallest budget in records,MIN
+biggest temperature in records,MAX
+largest weight in employees,MAX
+count records where score greater than 93,COUNT
+count employees where branch is Female,COUNT
+top score value,MAX
+minimum value of score,MIN
+lowest budget of employees,MIN
+what is avg marks of students,AVG
+who has the lowest budget,MIN
+average weight by department,AVG
+highest price of students,MAX
+show products with district equal to Female,SELECT
+show employees where salary is at least 9,SELECT
+total budget for orders,SUM
+count records of employees,COUNT
+find the highest gpa,MAX
+list all patients,SELECT
+lowest weight of orders,MIN
+average rating by department,AVG
+what is the mean rating,AVG
+how many orders where price is less than 80,COUNT
+total marks for products,SUM
+total height where price is greater than 91,SUM
+what is the total population,SUM
+lowest gpa of orders,MIN
+average experience of products where marks is greater than 84,AVG
+overall score of orders,SUM
+minimum value of experience,MIN
+combined income of patients,SUM
+total gpa for patients,SUM
+what is the total score,SUM
+what is the lowest temperature,MIN
+min income of employees from B,MIN
+sum of price,SUM
+min experience among students,MIN
+list all orders,SELECT
+min distance among patients,MIN
+sum all income,SUM
+mean value of price,AVG
+find the lowest distance,MIN
+what is the min duration,MIN
+display all orders,SELECT
+min population of orders from B,MIN
+list employees where experience between 89 and 39,SELECT
+summation of revenue,SUM
+bottom rating value,MIN
+lowest gpa of products,MIN
+show me all students,SELECT
+what is the maximum rating,MAX
+summation of age,SUM
+average experience for each district,AVG
+mean value of income,AVG
+max score of employees from CSE,MAX
+number of products older than 66,COUNT
+total revenue where duration is greater than 74,SUM
+what is the mean budget,AVG
+add up all population,SUM
+tell me how many patients,COUNT
+minimum revenue,MIN
+list records where quantity between 81 and 44,SELECT
+how many patients with status equal to B,COUNT
+calculate total income,SUM
+find max score of patients,MAX
+total number of orders,COUNT
+count all students,COUNT
+number of records older than 24,COUNT
+find the total height,SUM
+count records of products,COUNT
+what is the average height,AVG
+min weight among employees,MIN
+tell me how many patients,COUNT
+show orders with height above 24,SELECT
+what is the highest marks,MAX
+find lowest revenue,MIN
+combined marks of products,SUM
+min population of products from CSE,MIN
+get all employees,SELECT
+count products where population is below 44,COUNT
+show products below 50 salary,SELECT
+how many patients,COUNT
+count orders with country inactive,COUNT
+how many orders are there,COUNT
+total count of products,COUNT
+get min marks of records,MIN
+count all records,COUNT
+maximum revenue,MAX
+count all patients,COUNT
+smallest budget in records,MIN
+overall weight of students,SUM
+how many records with grade equal to BBA,COUNT
+how many employees are there,COUNT
+fetch orders where salary is higher than 33,SELECT
+top age value,MAX
+show patients with region equal to A,SELECT
+mean value of duration,AVG
+number of students older than 82,COUNT
+count all patients,COUNT
+sum gpa of orders from A,SUM
+overall duration of records,SUM
+mean value of height,AVG
+lowest temperature of products,MIN
+total income by level,SUM
+find orders where country is BBA,SELECT
+average weight of products where marks is greater than 15,AVG
+calculate average rating,AVG
+average budget per district,AVG
+show records with marks more than 88,SELECT
+what is the lowest weight,MIN
+fetch orders where quantity is higher than 54,SELECT
+highest duration value in students,MAX
+total temperature for employees,SUM
+total salary by country,SUM
+what is the mean score,AVG
+give me all patients,SELECT
+count products with city Male,COUNT
+total temperature from inactive,SUM
+what is the highest distance,MAX
+list all records from Female,SELECT
+what is the lowest temperature,MIN
+average temperature of orders where gpa is greater than 79,AVG
+sum all distance,SUM
+top quantity value,MAX
+average distance by gender,AVG
+show records where rating is inactive,SELECT
+greatest weight of products,MAX
+find the total duration,SUM
+show orders with district equal to B,SELECT
+show orders where quantity is A,SELECT
+show patients with region equal to active,SELECT
+top salary value,MAX
+list all records from active,SELECT
+total price from BBA,SUM
+minimum value of height,MIN
+lowest score value in employees,MIN
+count products from active,COUNT
+calculate average distance,AVG
+find total salary of orders,SUM
+find the lowest price,MIN
+mean temperature where gender is B,AVG
+get max income of orders,MAX
+compute average population,AVG
+average quantity of orders,AVG
+average rating for each level,AVG
+min rating among patients,MIN
+show patients older than 2,SELECT
+highest rating value in employees,MAX
+what is the lowest price,MIN
+who has the highest salary,MAX
+display students under 14 marks,SELECT
+find the highest rating,MAX
+find the lowest income,MIN
+what is the minimum revenue,MIN
+display records where budget is less than 16,SELECT
+minimum experience where grade is Male,MIN
+total population by branch,SUM
+list all employees,SELECT
+show products with branch EEE,SELECT
+what is the max revenue,MAX
+average rating by type,AVG
+average temperature of students where income is greater than 85,AVG
+max salary among products,MAX
+find highest rating,MAX
+who has the lowest salary,MIN
+find the highest revenue,MAX
+compute average revenue,AVG
+average height per department,AVG
+count products where price is below 55,COUNT
+find total gpa of products,SUM
+average weight of products where quantity is greater than 58,AVG
+smallest weight in records,MIN
+show all employees,SELECT
+display products under 45 rating,SELECT
+get max population of records,MAX
+sum of distance,SUM
+highest salary of students,MAX
+sum of population,SUM
+minimum value of age,MIN
+what is avg income of employees,AVG
+top population value,MAX
+number of students with age above 87,COUNT
+how many products where rating is less than 8,COUNT
+minimum value of rating,MIN
+biggest population in records,MAX
+count students with category inactive,COUNT
+find max quantity of orders,MAX
+overall price of students,SUM
+total number of employees,COUNT
+smallest weight in employees,MIN
+count products with district active,COUNT
+sum of rating where type is inactive,SUM
+calculate total income,SUM
+combined price of patients,SUM
+sum of quantity where gender is Dhaka,SUM
+show patients with region Dhaka,SELECT
+what is the minimum distance,MIN
+how many patients have price more than 13,COUNT
+calculate total salary,SUM
+tell me how many students,COUNT
+who has the lowest income,MIN
+what is the total gpa,SUM
+total score for patients,SUM
+get max duration of records,MAX
+average quantity where region equals A,AVG
+total budget where height is greater than 63,SUM
+minimum salary,MIN
+show all orders,SELECT
+count students where marks greater than 34,COUNT
+total count of patients,COUNT
+total students in B,COUNT
+smallest temperature in records,MIN
+count records of orders,COUNT
+calculate average distance,AVG
+lowest age of employees,MIN
+show employees with department BBA,SELECT
+average distance per status,AVG
+total number of patients,COUNT
+find lowest score,MIN
+display products under 53 income,SELECT
+how many students with department equal to active,COUNT
+mean gpa of patients,AVG
+display all students,SELECT
+how many products with type equal to Male,COUNT
+count employees from Female,COUNT
+give me all students,SELECT
+max marks of orders from B,MAX
+find the mean budget of all orders,AVG
+get min height of employees,MIN
+find average experience of patients,AVG
+average revenue of patients,AVG
+avg height of students,AVG
+get all employees,SELECT
+average temperature by city,AVG
+combined income of orders,SUM
+min salary among patients,MIN
+number of records with temperature above 7,COUNT
+show students with department inactive,SELECT
+average temperature by district,AVG
+find min distance of employees,MIN
+find min revenue of employees,MIN
+how many orders are there,COUNT
+show employees where income is CSE,SELECT
+get all employees,SELECT
+what is the max age,MAX
+find the highest age,MAX
+how many students have duration more than 50,COUNT
+count employees where duration greater than 62,COUNT
+get all records,SELECT
+total quantity by branch,SUM
+show employees with marks above 51,SELECT
+what is the maximum income,MAX
+find average height of records,AVG
+count orders with level inactive,COUNT
+how many students from active,COUNT
+who has the highest weight,MAX
+find lowest rating,MIN
+total revenue of employees,SUM
+find total budget of employees,SUM
+average temperature by status,AVG
+highest budget of employees,MAX
+what is the mean rating,AVG
+minimum price,MIN
+minimum budget where district is EEE,MIN
+how many students where gpa is less than 39,COUNT
+what is the highest distance,MAX
+lowest score value in orders,MIN
+maximum experience where region is Female,MAX
+what is avg temperature of students,AVG
+total temperature where budget is greater than 54,SUM
+mean value of experience,AVG
+count records where quantity is below 49,COUNT
+display employees under 81 distance,SELECT
+largest height in orders,MAX
+show patients below 49 income,SELECT
+find all employees where marks is greater than 9,SELECT
+sum population of all patients,SUM
+show employees below 67 budget,SELECT
+how many patients where temperature is less than 88,COUNT
+lowest height value in orders,MIN
+smallest budget in records,MIN
+maximum revenue where gender is inactive,MAX
+least age of records,MIN
+max revenue of patients from CSE,MAX
+compute average temperature,AVG
+what is the total height,SUM
+minimum score,MIN
+what is the max age,MAX
+minimum price,MIN
+count employees where duration is below 20,COUNT
+who has the highest height,MAX
+retrieve all products,SELECT
+display all patients,SELECT
+max gpa among employees,MAX
+sum all height,SUM
+average experience of employees,AVG
+largest age in products,MAX
+show all employees,SELECT
+average weight for each region,AVG
+list all patients from A,SELECT
+maximum marks,MAX
+find min distance of students,MIN
+mean revenue of orders,AVG
+greatest price of students,MAX
+sum of population where status is Male,SUM
+average income per type,AVG
+find all products where rating is greater than 61,SELECT
+display records where gpa is less than 69,SELECT
+list records where type equals B,SELECT
+how many orders from Dhaka,COUNT
+list patients where gpa between 93 and 24,SELECT
+count employees from B,COUNT
+sum of price where region is BBA,SUM
+find total income of orders,SUM
+sum all salary,SUM
+find average experience of orders,AVG
+retrieve all records,SELECT
+find min height of employees,MIN
+show records with price more than 12,SELECT
+mean value of marks,AVG
+total price from CSE,SUM
+list products where marks between 57 and 98,SELECT
+find the total quantity,SUM
+how many products from active,COUNT
+highest marks of patients,MAX
+show students with city equal to A,SELECT
+average temperature of students from Female,AVG
+show me all students,SELECT
+compute average height,AVG
+average weight of patients where distance is greater than 91,AVG
+greatest temperature of records,MAX
+show students with grade EEE,SELECT
+get patients where price exceeds 94,SELECT
+who has the lowest budget,MIN
+get all orders,SELECT
+largest age in students,MAX
+maximum rating where branch is CSE,MAX
+find the highest quantity,MAX
+smallest price in records,MIN
+calculate average revenue,AVG
+show records where age is A,SELECT
+avg gpa of employees,AVG
+find the lowest revenue,MIN
+total age of patients,SUM
+greatest budget of employees,MAX
+highest duration value in students,MAX
+sum weight of employees from B,SUM
+find the highest budget,MAX
+what is the minimum gpa,MIN
+mean value of rating,AVG
+average age of students where experience is greater than 92,AVG
+calculate total quantity,SUM
+add up all salary,SUM
+find the lowest age,MIN
+summation of price,SUM
+what is the minimum quantity,MIN
+top score value,MAX
+max gpa among products,MAX
+least temperature of students,MIN
+max gpa among patients,MAX
+get min distance of products,MIN
+retrieve all students,SELECT
+show all records,SELECT
+total budget of records,SUM
+minimum value of experience,MIN
+find min age of employees,MIN
+find records from EEE,SELECT
+average height of students,AVG
+maximum value of budget,MAX
+total population by level,SUM
+count records of orders,COUNT
+max score among students,MAX
+mean temperature where grade is CSE,AVG
+list records where region equals Female,SELECT
+smallest experience in records,MIN
+least duration of products,MIN
+show products where income is B,SELECT
+minimum budget,MIN
+find average score of patients,AVG
+count all records,COUNT
+what is the lowest gpa,MIN
+total records in A,COUNT
+average score per city,AVG
+what is the minimum salary,MIN
+total budget where rating is greater than 82,SUM
+get max duration of records,MAX
+display all patients,SELECT
+what is the highest budget,MAX
+who has the lowest budget,MIN
+what is the average experience,AVG
+tell me how many students,COUNT
+compute average temperature,AVG
+show records with gpa more than 45,SELECT
+maximum marks,MAX
+what is the lowest quantity,MIN
+find the lowest salary,MIN
+find average age of records,AVG
+smallest temperature in records,MIN
+find the lowest gpa,MIN
+average rating of patients from A,AVG
+get patients where age exceeds 96,SELECT
+total revenue by region,SUM
+average weight for each branch,AVG
+find the mean salary of all students,AVG
+mean duration where district is Male,AVG
+what is the max experience,MAX
+count all records,COUNT
+find patients from B,SELECT
+greatest marks of employees,MAX
+list orders where gender equals Male,SELECT
+count orders where age greater than 58,COUNT
+maximum value of temperature,MAX
+list all products from Male,SELECT
+sum all age,SUM
+show patients below 51 temperature,SELECT
+find max revenue of employees,MAX
+display patients where age is less than 31,SELECT
+show orders with price above 89,SELECT
+compute average quantity,AVG
+find the lowest height,MIN
+what is the maximum temperature,MAX
+find the mean marks of all employees,AVG
+how many records are there,COUNT
+sum all weight,SUM
+compute average budget,AVG
+total revenue from CSE,SUM
+find the mean score of all students,AVG
+list all employees from CSE,SELECT
+least marks of students,MIN
+get min experience of students,MIN
+what is avg duration of students,AVG
+find max weight of students,MAX
+total age from inactive,SUM
+find the total temperature,SUM
+what is the lowest distance,MIN
+find the lowest age,MIN
+find total temperature of employees,SUM
+smallest price in products,MIN
+get min marks of employees,MIN
+calculate total marks,SUM
+least age of products,MIN
+what is avg revenue of orders,AVG
+sum all age,SUM
+mean quantity where level is Male,AVG
+how many products from BBA,COUNT
+calculate average budget,AVG
+list students where region equals inactive,SELECT
+min population of employees from Dhaka,MIN
+list all products from inactive,SELECT
+get max age of patients,MAX
+total distance of products,SUM
+how many students where budget is less than 98,COUNT
+overall age of students,SUM
+find highest gpa,MAX
+count records of orders,COUNT
+average budget of employees where score is greater than 42,AVG
+retrieve all patients,SELECT
+average experience by region,AVG
+show students with quantity above 82,SELECT
+mean value of height,AVG
+total records in Female,COUNT
+count records of employees,COUNT
+count all orders,COUNT
+count employees with region CSE,COUNT
+overall price of products,SUM
+how many products are there,COUNT
+get min rating of patients,MIN
+show orders where duration is A,SELECT
+show patients below 40 budget,SELECT
+count employees with branch inactive,COUNT
+add up all income,SUM
+total quantity of employees,SUM
+show employees older than 50,SELECT
+sum price of records from inactive,SUM
+bottom income value,MIN
+biggest rating in records,MAX
+bottom income value,MIN
+calculate total revenue,SUM
+find all products where duration is greater than 60,SELECT
+show records with score more than 12,SELECT
+min budget among employees,MIN
+lowest distance of employees,MIN
+list employees where region equals active,SELECT
+show records with category A,SELECT
+total temperature where quantity is greater than 56,SUM
+mean value of score,AVG
+avg weight of orders,AVG
+average score for each grade,AVG
+number of orders with revenue above 55,COUNT
+get min height of employees,MIN
+tell me how many employees,COUNT
+what is the min income,MIN
+find min weight of patients,MIN
+minimum age where region is BBA,MIN
+average age of products from BBA,AVG
+sum all population,SUM
+combined income of orders,SUM
+show records with population more than 2,SELECT
+who has the lowest quantity,MIN
+what is the max population,MAX
+how many orders have income more than 19,COUNT
+smallest population in records,MIN
+give me all patients,SELECT
+what is the lowest distance,MIN
+what is the maximum duration,MAX
+find total experience of employees,SUM
+find the total income,SUM
+count orders with country Female,COUNT
+maximum value of quantity,MAX
+maximum revenue where level is CSE,MAX
+show all products,SELECT
+what is the mean duration,AVG
+find lowest score,MIN
+highest revenue value in patients,MAX
+biggest salary in records,MAX
+summation of gpa,SUM
+find the highest gpa,MAX
+find products where status is A,SELECT
+minimum salary,MIN
+list employees where region equals active,SELECT
+average height of employees from BBA,AVG
+highest income of products,MAX
+get all orders,SELECT
+retrieve all records,SELECT
+average weight per level,AVG
+get min quantity of records,MIN
+sum duration of all students,SUM
+maximum score,MAX
+find the lowest score,MIN
+average rating of records where population is greater than 54,AVG
+what is the total quantity,SUM
+lowest age value in records,MIN
+find total population of orders,SUM
+retrieve all orders,SELECT
+find the mean price of all students,AVG
+highest revenue of students,MAX
+how many records where weight is less than 62,COUNT
+smallest age in employees,MIN
+largest gpa in patients,MAX
+show me all employees,SELECT
+find total weight of orders,SUM
+tell me how many products,COUNT
+show patients where weight is CSE,SELECT
+find orders where branch is A,SELECT
+overall distance of patients,SUM
+what is avg experience of records,AVG
+avg score of products,AVG
+total number of records,COUNT
+show products with gender equal to EEE,SELECT
+find all records where temperature is greater than 9,SELECT
+find min budget of patients,MIN
+count all employees,COUNT
+find orders where department is inactive,SELECT
+average rating per branch,AVG
+find lowest gpa,MIN
+minimum value of height,MIN
+avg salary of records,AVG
+min experience among products,MIN
+min weight among employees,MIN
+what is the mean price,AVG
+summation of weight,SUM
+show patients with country inactive,SELECT
+find the total temperature,SUM
+greatest temperature of products,MAX
+total price for records,SUM
+smallest population in records,MIN
+how many students with grade equal to Male,COUNT
+find the mean population of all orders,AVG
+how many records with district equal to A,COUNT
+sum of score,SUM
+what is the lowest quantity,MIN
+average revenue of employees from CSE,AVG
+smallest score in records,MIN
+give me all orders,SELECT
+total duration where score is greater than 82,SUM
+number of students with duration above 20,COUNT
+what is the minimum price,MIN
+display all employees,SELECT
+who has the highest temperature,MAX
+total income from Female,SUM
+count products from Male,COUNT
+largest price in orders,MAX
+count all records,COUNT
+find employees where city is CSE,SELECT
+how many patients from A,COUNT
+show employees below 13 price,SELECT
+show products with rating above 71,SELECT
+show products with temperature above 69,SELECT
+mean price of students,AVG
+retrieve all products,SELECT
+summation of gpa,SUM
+sum of weight where grade is active,SUM
+greatest price of students,MAX
+how many records,COUNT
+find the lowest weight,MIN
+average salary of patients,AVG
+list patients where city equals EEE,SELECT
+top gpa value,MAX
+how many records have experience more than 13,COUNT
+count employees where status is EEE,COUNT
+show records below 100 distance,SELECT
+count records where level is Dhaka,COUNT
+get min price of products,MIN
+count products from Male,COUNT
+avg budget of orders,AVG
+find orders aged over 26,SELECT
+summation of gpa,SUM
+min distance among patients,MIN
+max price among employees,MAX
+what is the lowest temperature,MIN
+total number of records,COUNT
+how many products are there,COUNT
+retrieve all patients,SELECT
+average revenue per district,AVG
+total count of orders,COUNT
+highest experience of patients,MAX
+smallest score in records,MIN
+compute average salary,AVG
+number of students with experience above 11,COUNT
+sum revenue of employees from A,SUM
+maximum value of budget,MAX
+max budget of patients from inactive,MAX
+display all orders,SELECT
+what is the min duration,MIN
+highest temperature of products,MAX
+how many orders,COUNT
+what is the total age,SUM
+what is the highest experience,MAX
+mean duration where gender is B,AVG
+mean value of budget,AVG
+find the lowest price,MIN
+minimum height where branch is inactive,MIN
+how many patients are there,COUNT
+show orders older than 14,SELECT
+average price of products where temperature is greater than 84,AVG
+what is the minimum distance,MIN
+what is the maximum duration,MAX
+find all records where price is greater than 77,SELECT
+show orders with age above 46,SELECT
+smallest weight in records,MIN
+calculate total height,SUM
+what is the lowest marks,MIN
+count employees from EEE,COUNT
+max age among students,MAX
+top revenue value,MAX
+who has the lowest quantity,MIN
+number of students older than 3,COUNT
+who has the highest age,MAX
+average revenue of employees from EEE,AVG
+display records under 10 temperature,SELECT
+show records below 32 revenue,SELECT
+largest experience in products,MAX
+count employees from Male,COUNT
+list all orders,SELECT
+max weight of products from BBA,MAX
+what is the min price,MIN
+how many employees are there,COUNT
+find average income of orders,AVG
+maximum value of experience,MAX
+find orders from Male,SELECT
+total marks by department,SUM
+find the total price,SUM
+total experience from Female,SUM
+overall experience of orders,SUM
+display employees where weight is less than 20,SELECT
+total products in Female,COUNT
+calculate average distance,AVG
+what is the mean quantity,AVG
+average temperature by status,AVG
+number of orders with salary above 15,COUNT
+what is the min income,MIN
+count records of orders,COUNT
+find min marks of orders,MIN
+find the lowest experience,MIN
+total marks by grade,SUM
+max budget among employees,MAX
+combined age of patients,SUM
+who has the lowest quantity,MIN
+highest rating value in products,MAX
+avg budget of products,AVG
+what is the total salary,SUM
+max experience among orders,MAX
+count employees where marks is below 17,COUNT
+min rating of patients from EEE,MIN
+what is the min duration,MIN
+list orders where type equals A,SELECT
+show products with gender equal to A,SELECT
+bottom price value,MIN
+what is the min gpa,MIN
+total rating by level,SUM
+what is avg score of records,AVG
+count records from CSE,COUNT
+number of products with population above 57,COUNT
+compute average age,AVG
+what is the minimum population,MIN
+get orders where revenue exceeds 38,SELECT
+find orders aged over 57,SELECT
+show me all students,SELECT
+how many orders are there,COUNT
+total number of records,COUNT
+number of products older than 88,COUNT
+highest revenue of products,MAX
+find total duration of patients,SUM
+what is the lowest budget,MIN
+number of patients with revenue above 52,COUNT
+sum all rating,SUM
+min income of products from CSE,MIN
+what is the mean experience,AVG
+what is avg experience of records,AVG
+get max gpa of employees,MAX
+calculate total age,SUM
+what is the maximum duration,MAX
+count records of orders,COUNT
+smallest weight in records,MIN
+count products where quantity is below 43,COUNT
+sum all price,SUM
+min weight of products from Male,MIN
+average distance by status,AVG
+sum of experience,SUM
+mean value of budget,AVG
+smallest gpa in records,MIN
+add up all height,SUM
+max marks among students,MAX
+how many students with city equal to active,COUNT
+what is the max experience,MAX
+show records with district B,SELECT
+get patients where temperature exceeds 35,SELECT
+count all records,COUNT
+how many orders have score more than 84,COUNT
+give me all students,SELECT
+combined weight of patients,SUM
+number of employees older than 96,COUNT
+what is the mean score,AVG
+what is the mean temperature,AVG
+mean age where category is CSE,AVG
+summation of age,SUM
+total distance by level,SUM
+what is avg rating of patients,AVG
+retrieve all orders,SELECT
+summation of height,SUM
+show records with income more than 96,SELECT
+what is the lowest population,MIN
+smallest age in records,MIN
+mean budget of patients,AVG
+sum revenue of all products,SUM
+what is the maximum revenue,MAX
+how many orders are there,COUNT
+find total budget of records,SUM
+what is the lowest duration,MIN
+overall temperature of orders,SUM
+how many students from B,COUNT
+mean distance of records,AVG
+find average quantity of products,AVG
+how many patients from active,COUNT
+min marks of records from B,MIN
+smallest price in records,MIN
+sum salary of patients from BBA,SUM
+sum of age where city is EEE,SUM
+find total price of orders,SUM
+show records older than 76,SELECT
+count records from Dhaka,COUNT
+average revenue for each gender,AVG
+max weight among students,MAX
+give me all students,SELECT
+who has the highest age,MAX
+find the total quantity,SUM
+mean value of duration,AVG
+find total experience of students,SUM
+give me all orders,SELECT
+show orders where budget is EEE,SELECT
+list students where grade equals CSE,SELECT
+least experience of products,MIN
+lowest duration of employees,MIN
+total population by level,SUM
+summation of age,SUM
+average income of orders where population is greater than 8,AVG
+what is the lowest revenue,MIN
+number of employees older than 70,COUNT
+average budget where department equals Dhaka,AVG
+get max income of patients,MAX
+mean value of salary,AVG
+find average price of patients,AVG
+display patients under 53 weight,SELECT
+calculate total quantity,SUM
+find max score of records,MAX
+total score of orders,SUM
+what is the max temperature,MAX
+show orders older than 25,SELECT
+find highest distance,MAX
+count products where price is below 71,COUNT
+tell me how many patients,COUNT
+show all employees,SELECT
+how many students with level equal to B,COUNT
+mean weight where type is CSE,AVG
+show records where temperature is EEE,SELECT
+max population of orders from active,MAX
+maximum value of population,MAX
+fetch products where revenue is higher than 12,SELECT
+display patients where gpa is less than 80,SELECT
+get all students,SELECT
+count all records,COUNT
+average duration of orders from B,AVG
+average marks of orders from active,AVG
+minimum value of revenue,MIN
+how many patients where income is less than 5,COUNT
+get max revenue of records,MAX
+sum of age,SUM
+show students with distance above 69,SELECT
+count students where category is B,COUNT
+maximum value of duration,MAX
+find the highest height,MAX
+what is the maximum income,MAX
+get all students,SELECT
+count students where country is Dhaka,COUNT
+number of orders with duration above 44,COUNT
+average price by city,AVG
+show records with quantity more than 76,SELECT
+minimum duration where region is B,MIN
+what is the sum of quantity,SUM
+find max salary of patients,MAX
+sum all marks,SUM
+bottom revenue value,MIN
+maximum gpa where branch is Male,MAX
+highest duration of records,MAX
+show products where quantity is CSE,SELECT
+total weight where height is greater than 76,SUM
+average marks per grade,AVG
+average duration by type,AVG
+max salary among products,MAX
+what is the maximum revenue,MAX
+largest revenue in products,MAX
+average temperature per region,AVG
+count students where salary greater than 19,COUNT
+summation of distance,SUM
+find the mean score of all patients,AVG
+total salary where weight is greater than 50,SUM
+average quantity of orders,AVG
+show students older than 79,SELECT
+average gpa for each status,AVG
+find lowest experience,MIN
+compute average score,AVG
+count all records,COUNT
+minimum score,MIN
+sum budget of employees from CSE,SUM
+min age among students,MIN
+highest rating value in records,MAX
+count all records,COUNT
+biggest salary in records,MAX
+avg income of employees,AVG
+how many orders from CSE,COUNT
+find records from B,SELECT
+average temperature of orders from EEE,AVG
+greatest price of products,MAX
+sum of height where branch is active,SUM
+get max age of records,MAX
+total count of employees,COUNT
+count records where weight is below 52,COUNT
+add up all distance,SUM
+who has the lowest distance,MIN
+overall height of students,SUM
+count products where quantity greater than 59,COUNT
+show students older than 21,SELECT
+who has the lowest gpa,MIN
+find highest budget,MAX
+mean value of income,AVG
+average age of products,AVG
+sum duration of patients from EEE,SUM
+show me all orders,SELECT
+what is the lowest score,MIN
+give me all orders,SELECT
+bottom experience value,MIN
+sum all age,SUM
+total count of orders,COUNT
+what is avg temperature of orders,AVG
+avg experience of patients,AVG
+list all orders from A,SELECT
+maximum value of marks,MAX
+how many records from EEE,COUNT
+how many students are there,COUNT
+fetch employees where experience is higher than 92,SELECT
+total distance for records,SUM
+maximum marks where grade is BBA,MAX
+summation of population,SUM
+maximum value of height,MAX
+get max age of orders,MAX
+maximum quantity,MAX
+count orders where income greater than 55,COUNT
+how many orders from EEE,COUNT
+highest income of records,MAX
+highest distance of patients,MAX
+how many patients are there,COUNT
+show products with temperature above 36,SELECT
+compute average price,AVG
+sum all experience,SUM
+find max rating of products,MAX
+count all records,COUNT
+biggest temperature in records,MAX
+fetch patients where price is higher than 11,SELECT
+what is the average duration,AVG
+show all orders,SELECT
+what is the minimum weight,MIN
+show orders older than 53,SELECT
+count students where gender is Male,COUNT
+highest quantity of products,MAX
+total income by level,SUM
+how many employees,COUNT
+show orders older than 71,SELECT
+what is the average budget,AVG
+get min quantity of patients,MIN
+largest age in students,MAX
+find the total price,SUM
+average height where gender equals BBA,AVG
+what is the maximum weight,MAX
+find orders aged over 6,SELECT
+least price of students,MIN
+min weight among records,MIN
+count records where revenue greater than 63,COUNT
+display orders under 89 experience,SELECT
+count records of students,COUNT
+find average experience of products,AVG
+average duration by city,AVG
+find the mean weight of all patients,AVG
+average experience of records from Female,AVG
+find the highest population,MAX
+what is avg experience of orders,AVG
+find the lowest experience,MIN
+tell me how many patients,COUNT
+show students older than 75,SELECT
+what is the sum of salary,SUM
+average experience by type,AVG
+calculate average gpa,AVG
+combined revenue of students,SUM
+sum of budget,SUM
+mean value of budget,AVG
+count all records,COUNT
+smallest score in employees,MIN
+total records in inactive,COUNT
+find max income of students,MAX
+largest quantity in products,MAX
+what is the minimum salary,MIN
+maximum value of revenue,MAX
+calculate average age,AVG
+mean weight where level is Female,AVG
+display all records,SELECT
+count patients with region EEE,COUNT
+bottom income value,MIN
+retrieve all products,SELECT
+maximum duration where gender is inactive,MAX
+what is the total gpa,SUM
+calculate total duration,SUM
+what is the mean duration,AVG
+count all records,COUNT
+total population of employees,SUM
+calculate average height,AVG
+mean value of duration,AVG
+calculate total experience,SUM
+show records with grade equal to EEE,SELECT
+average gpa of products,AVG
+mean marks where region is A,AVG
+avg temperature of employees,AVG
+overall rating of orders,SUM
+tell me how many records,COUNT
+find patients where district is EEE,SELECT
+overall price of students,SUM
+number of employees older than 31,COUNT
+show students older than 53,SELECT
+max weight of students from Dhaka,MAX
+retrieve all orders,SELECT
+count records where gpa is below 1,COUNT
+mean weight of orders,AVG
+average height of products from BBA,AVG
+sum all duration,SUM
+mean value of revenue,AVG
+show products older than 89,SELECT
+show orders older than 47,SELECT
+find min salary of products,MIN
+count employees where type is Male,COUNT
+count all records,COUNT
+calculate total experience,SUM
+overall rating of students,SUM
+mean rating of records,AVG
+sum of marks where country is B,SUM
+what is avg revenue of students,AVG
+find total budget of employees,SUM
+how many orders with branch equal to A,COUNT
+biggest weight in records,MAX
+count orders where level is active,COUNT
+find total rating of patients,SUM
+what is avg temperature of employees,AVG
+compute average population,AVG
+find employees from EEE,SELECT
+calculate total height,SUM
+calculate average gpa,AVG
+count all products,COUNT
+find lowest revenue,MIN
+min score among products,MIN
+find students from B,SELECT
+compute average rating,AVG
+number of products with gpa above 89,COUNT
+show records where age is at least 68,SELECT
+min revenue of students from Female,MIN
+list products where height between 85 and 82,SELECT
+sum of height where city is Female,SUM
+display all orders,SELECT
+mean age where level is active,AVG
+find the lowest marks,MIN
+highest duration of students,MAX
+what is the minimum quantity,MIN
+what is the sum of marks,SUM
+number of patients older than 46,COUNT
+average marks of orders,AVG
+list students where age between 56 and 61,SELECT
+sum of height,SUM
+show records where score is A,SELECT
+show records below 5 age,SELECT
+what is the max age,MAX
+count students where district is Male,COUNT
+maximum value of quantity,MAX
+count all students,COUNT
+max budget among products,MAX
+number of products with population above 13,COUNT
+number of products older than 63,COUNT
+display all orders,SELECT
+highest temperature of patients,MAX
+average score of records,AVG
+summation of weight,SUM
+count products from active,COUNT
+display orders under 85 salary,SELECT
+count products where budget greater than 61,COUNT
+maximum temperature where branch is B,MAX
+get patients where marks exceeds 52,SELECT
+what is avg weight of employees,AVG
+smallest temperature in records,MIN
+what is the total budget,SUM
+combined revenue of students,SUM
+highest temperature of patients,MAX
+how many students where age is less than 46,COUNT
+show employees below 75 marks,SELECT
+total count of students,COUNT
+how many patients with category equal to CSE,COUNT
+smallest score in records,MIN
+what is the total height,SUM
+get max price of students,MAX
+find the total population,SUM
+biggest score in records,MAX
+smallest gpa in records,MIN
+how many students where temperature is less than 24,COUNT
+avg price of orders,AVG
+get max rating of students,MAX
+show all students,SELECT
+show records with income more than 2,SELECT
+list employees where experience between 83 and 36,SELECT
+number of orders older than 39,COUNT
+average weight per department,AVG
+overall height of employees,SUM
+find lowest duration,MIN
+find average income of students,AVG
+total age from Female,SUM
+maximum value of budget,MAX
+show records with category equal to BBA,SELECT
+max temperature among patients,MAX
+find highest score,MAX
+sum income of all orders,SUM
+total temperature by type,SUM
+average score of employees from inactive,AVG
+count products where budget greater than 97,COUNT
+least weight of products,MIN
+give me all employees,SELECT
+what is the average salary,AVG
+total income where duration is greater than 70,SUM
+lowest weight of products,MIN
+count employees where category is EEE,COUNT
+display all products,SELECT
+count orders from EEE,COUNT
+sum price of orders from A,SUM
+list all patients,SELECT
+show products older than 22,SELECT
+bottom weight value,MIN
+count records where region is B,COUNT
+find the highest gpa,MAX
+find max duration of orders,MAX
+what is the max quantity,MAX
+who has the highest distance,MAX
+average income by grade,AVG
+sum all gpa,SUM
+get max score of records,MAX
+who has the highest quantity,MAX
+mean value of temperature,AVG
+average temperature per status,AVG
+number of patients with quantity above 23,COUNT
+largest distance in products,MAX
+what is the sum of score,SUM
+sum all budget,SUM
+fetch records where duration is higher than 66,SELECT
+find the total population,SUM
+find min rating of employees,MIN
+find the total experience,SUM
+get max salary of employees,MAX
+maximum value of duration,MAX
+lowest distance value in patients,MIN
+sum of price,SUM
+biggest height in records,MAX
+average distance by branch,AVG
+show all orders,SELECT
+get min gpa of records,MIN
+find the total rating,SUM
+find highest weight,MAX
+find lowest gpa,MIN
+avg marks of students,AVG
+overall salary of students,SUM
+how many employees,COUNT
+what is the max revenue,MAX
+what is the sum of distance,SUM
+give me all employees,SELECT
+display all patients,SELECT
+average duration of orders,AVG
+list records where department equals B,SELECT
+lowest weight value in employees,MIN
+average price per city,AVG
+top salary value,MAX
+what is avg experience of records,AVG
+largest distance in records,MAX
+list records where quantity between 37 and 89,SELECT
+tell me how many employees,COUNT
+maximum value of age,MAX
+lowest distance value in records,MIN
+sum budget of all orders,SUM
+top budget value,MAX
+show me all employees,SELECT
+total revenue of products,SUM
+minimum experience where grade is Dhaka,MIN
+sum all quantity,SUM
+find students from CSE,SELECT
+maximum temperature,MAX
+add up all gpa,SUM
+show employees with weight above 35,SELECT
+what is the max weight,MAX
+what is the mean gpa,AVG
+who has the lowest rating,MIN
+how many employees with category equal to Female,COUNT
+show patients older than 99,SELECT
+compute average distance,AVG
+calculate average gpa,AVG
+what is the total duration,SUM
+average temperature of employees where salary is greater than 51,AVG
+calculate average age,AVG
+what is the max budget,MAX
+sum of price where branch is active,SUM
+maximum value of population,MAX
+sum all price,SUM
+maximum value of gpa,MAX
+add up all budget,SUM
+list products where gender equals A,SELECT
+find max quantity of products,MAX
+average quantity per district,AVG
+number of orders with rating above 65,COUNT
+mean revenue of products,AVG
+find the total height,SUM
+find all orders where temperature is greater than 15,SELECT
+tell me how many employees,COUNT
+how many employees from B,COUNT
+what is the sum of height,SUM
+show products older than 47,SELECT
+display patients under 68 experience,SELECT
+tell me how many employees,COUNT
+compute average quantity,AVG
+get all orders,SELECT
+find average rating of patients,AVG
+smallest weight in students,MIN
+highest quantity value in employees,MAX
+list records where gender equals BBA,SELECT
+find min salary of employees,MIN
+what is avg score of products,AVG
+sum salary of all patients,SUM
+find max score of students,MAX
+list products where department equals Dhaka,SELECT
+find average price of employees,AVG
+sum all distance,SUM
+avg age of patients,AVG
+largest temperature in products,MAX
+find average income of orders,AVG
+total score of products,SUM
+largest score in employees,MAX
+find total score of products,SUM
+who has the highest age,MAX
+average gpa of employees,AVG
+what is the mean rating,AVG
+average temperature of records from inactive,AVG
+sum of revenue where category is active,SUM
+display all employees,SELECT
+total price from CSE,SUM
+what is the sum of temperature,SUM
+show orders with type equal to A,SELECT
+find max age of products,MAX
+minimum score where district is Dhaka,MIN
+what is the average gpa,AVG
+who has the lowest weight,MIN
+show patients older than 79,SELECT
+what is the total marks,SUM
+highest salary value in employees,MAX
+how many patients where price is less than 90,COUNT
+find students where status is Male,SELECT
+find students aged over 70,SELECT
+tell me how many orders,COUNT
+what is the min salary,MIN
+who has the lowest duration,MIN
+sum salary of orders from Male,SUM
+show employees below 85 revenue,SELECT
+maximum value of income,MAX
+calculate total distance,SUM
+minimum temperature where district is CSE,MIN
+what is the mean duration,AVG
+list all records,SELECT
+count orders where salary is below 81,COUNT
+max gpa of patients from BBA,MAX
+average revenue where branch equals Male,AVG
+total budget of orders,SUM
+maximum marks where country is BBA,MAX
+maximum value of quantity,MAX
+max salary of students from A,MAX
+avg revenue of patients,AVG
+get min rating of products,MIN
+mean distance where status is BBA,AVG
+summation of budget,SUM
+highest quantity of products,MAX
+count records of orders,COUNT
+list patients where duration between 76 and 42,SELECT
+list employees where age between 61 and 10,SELECT
+count employees where revenue greater than 75,COUNT
+avg gpa of students,AVG
+calculate average salary,AVG
+avg experience of records,AVG
+what is the sum of distance,SUM
+what is the total experience,SUM
+count orders where branch is inactive,COUNT
+top score value,MAX
+sum duration of employees from CSE,SUM
+average temperature for each branch,AVG
+average height of employees where height is greater than 40,AVG
+total patients in Male,COUNT
+find total temperature of products,SUM
+find the mean marks of all products,AVG
+what is the maximum score,MAX
+count students where weight is below 77,COUNT
+average income of orders where distance is greater than 13,AVG
+calculate average age,AVG
+total quantity for patients,SUM
+top budget value,MAX
+sum all distance,SUM
+find max age of patients,MAX
+count students where revenue greater than 31,COUNT
+minimum value of temperature,MIN
+count all records,COUNT
+lowest salary value in patients,MIN
+what is the highest experience,MAX
+avg gpa of orders,AVG
+who has the lowest age,MIN
+max score among employees,MAX
+average salary where region equals inactive,AVG
+what is the minimum income,MIN
+count patients where weight is below 55,COUNT
+total budget of products,SUM
+total duration for students,SUM
+find lowest gpa,MIN
+maximum salary where branch is A,MAX
+show patients older than 76,SELECT
+find total weight of orders,SUM
+total temperature of employees,SUM
+count employees where price is below 40,COUNT
+what is the minimum income,MIN
+total count of orders,COUNT
+get min income of students,MIN
+find lowest score,MIN
+average population where district equals CSE,AVG
+total score from CSE,SUM
+minimum revenue,MIN
+average rating for each grade,AVG
+max budget among products,MAX
+total population where weight is greater than 73,SUM
+how many students where quantity is less than 85,COUNT
+show records with temperature above 11,SELECT
+count records of products,COUNT
+average rating of products,AVG
+what is the maximum age,MAX
+average budget of products,AVG
+who has the highest temperature,MAX
+fetch products where price is higher than 2,SELECT
+average distance where category equals Dhaka,AVG
+find max population of records,MAX
+minimum value of gpa,MIN
+top quantity value,MAX
+list all orders from CSE,SELECT
+get patients where distance exceeds 35,SELECT
+count records of records,COUNT
+summation of temperature,SUM
+show records older than 54,SELECT
+average gpa per type,AVG
+max revenue of patients from EEE,MAX
+count records of orders,COUNT
+how many patients from Female,COUNT
+show orders where temperature is at least 15,SELECT
+maximum value of quantity,MAX
+average quantity where department equals BBA,AVG
+list all employees from BBA,SELECT
+fetch records where marks is higher than 40,SELECT
+find highest duration,MAX
+mean marks where city is active,AVG
+count all records,COUNT
+how many employees have height more than 69,COUNT
+find highest revenue,MAX
+list employees where population between 32 and 48,SELECT
+how many records,COUNT
+count all records,COUNT
+highest weight of students,MAX
+minimum gpa where status is EEE,MIN
+compute average rating,AVG
+list patients where experience between 64 and 84,SELECT
+what is the average duration,AVG
+show products older than 47,SELECT
+show orders with category equal to Dhaka,SELECT
+max budget among students,MAX
+max duration among records,MAX
+show employees older than 28,SELECT
+sum of rating where country is EEE,SUM
+how many patients from inactive,COUNT
+total gpa by category,SUM
+find lowest population,MIN
+find students from Female,SELECT
+show me all students,SELECT
+find the highest age,MAX
+average temperature per category,AVG
+total duration where distance is greater than 4,SUM
+how many orders have score more than 28,COUNT
+maximum population,MAX
+find average rating of records,AVG
+number of employees with age above 71,COUNT
+what is the maximum experience,MAX
+average marks of orders where weight is greater than 73,AVG
+who has the highest income,MAX
+average height by region,AVG
+calculate total height,SUM
+max experience of patients from B,MAX
+tell me how many students,COUNT
+number of students with gpa above 69,COUNT
+find products from CSE,SELECT
+what is the mean income,AVG
+smallest marks in products,MIN
+max price among orders,MAX
+how many products where rating is less than 39,COUNT
+how many products where weight is less than 89,COUNT
+calculate average gpa,AVG
+count patients with grade Male,COUNT
+count patients from CSE,COUNT
+average income by category,AVG
+find the highest rating,MAX
+find total rating of records,SUM
+average gpa where country equals B,AVG
+find the highest rating,MAX
+sum salary of all records,SUM
+greatest distance of students,MAX
+number of students older than 58,COUNT
+sum of budget,SUM
+total experience for students,SUM
+mean salary of students,AVG
+how many products from CSE,COUNT
+list students where salary between 7 and 80,SELECT
+average distance of orders from Male,AVG
+find students aged over 10,SELECT
+count records of orders,COUNT
+show orders where income is at least 18,SELECT
+average score of students,AVG
+calculate total age,SUM
+combined population of records,SUM
+get min weight of patients,MIN
+count patients where weight greater than 84,COUNT
+count records of records,COUNT
+sum gpa of all records,SUM
+least price of students,MIN
+sum budget of employees from BBA,SUM
+smallest quantity in records,MIN
+sum all age,SUM
+find the lowest score,MIN
+min weight among products,MIN
+highest height of records,MAX
+min duration among students,MIN
+what is the min income,MIN
+find the highest income,MAX
+maximum value of population,MAX
+sum all rating,SUM
+list products where country equals CSE,SELECT
+count all records,COUNT
+total revenue where salary is greater than 92,SUM
+highest distance value in students,MAX
+show students below 81 income,SELECT
+average price of records,AVG
+smallest income in records,MIN
+lowest gpa of orders,MIN
+what is avg score of products,AVG
+add up all gpa,SUM
+find the mean duration of all records,AVG
+fetch students where distance is higher than 10,SELECT
+count products where level is B,COUNT
+get all records,SELECT
+how many records where salary is less than 51,COUNT
+fetch orders where weight is higher than 65,SELECT
+find total income of products,SUM
+maximum budget,MAX
+largest budget in employees,MAX
+count all records,COUNT
+what is the total duration,SUM
+find the total score,SUM
+sum income of all records,SUM
+minimum value of price,MIN
+get products where gpa exceeds 58,SELECT
+calculate average distance,AVG
+least population of employees,MIN
+what is the sum of population,SUM
+calculate average income,AVG
+max price among products,MAX
+compute average budget,AVG
+avg price of records,AVG
+find students from A,SELECT
+find highest height,MAX
+show records where height is Dhaka,SELECT
+how many products,COUNT
+list all records,SELECT
+max quantity among students,MAX
+retrieve all employees,SELECT
+get max duration of patients,MAX
+find the mean revenue of all patients,AVG
+maximum distance where region is active,MAX
+minimum value of height,MIN
+get min score of patients,MIN
+who has the highest duration,MAX
+smallest revenue in records,MIN
+find the mean weight of all employees,AVG
+how many products where quantity is less than 10,COUNT
+summation of distance,SUM
+top marks value,MAX
+find average price of records,AVG
+total count of patients,COUNT
+count all records,COUNT
+mean value of height,AVG
+combined price of records,SUM
+total price where budget is greater than 93,SUM
+add up all temperature,SUM
+count employees with grade active,COUNT
+max age of students from inactive,MAX
+what is the max quantity,MAX
+retrieve all employees,SELECT
+count products where weight greater than 67,COUNT
+find average temperature of records,AVG
+find products aged over 4,SELECT
+how many records,COUNT
+minimum income,MIN
+sum all population,SUM
+compute average salary,AVG
+maximum value of salary,MAX
+show orders with budget above 9,SELECT
+how many students with level equal to Male,COUNT
+maximum value of rating,MAX
+count students where income is below 99,COUNT
+count products where weight greater than 11,COUNT
+find patients where country is inactive,SELECT
+list products where status equals active,SELECT
+what is avg duration of students,AVG
+count employees where weight greater than 81,COUNT
+minimum value of marks,MIN
+find the mean quantity of all records,AVG
+smallest marks in students,MIN
+get max distance of records,MAX
+number of records with salary above 90,COUNT
+what is the total age,SUM
+calculate average gpa,AVG
+minimum age,MIN
+sum all age,SUM
+average quantity where category equals EEE,AVG
+avg income of records,AVG
+average income by gender,AVG
+highest price of orders,MAX
+sum marks of employees from CSE,SUM
+find employees from Female,SELECT
+highest age value in employees,MAX
+total students in A,COUNT
+total gpa of students,SUM
+sum of age where type is inactive,SUM
+max quantity among patients,MAX
+show patients with budget above 27,SELECT
+retrieve all employees,SELECT
+mean value of salary,AVG
+what is the lowest quantity,MIN
+greatest temperature of products,MAX
+lowest salary of patients,MIN
+show records with quantity more than 15,SELECT
+how many records with category equal to CSE,COUNT
+sum gpa of students from active,SUM
+count employees where type is inactive,COUNT
+count students where score greater than 77,COUNT
+what is avg rating of students,AVG
+give me all orders,SELECT
+count patients where level is inactive,COUNT
+count all products,COUNT
+find employees aged over 28,SELECT
+count students with level CSE,COUNT
+minimum marks where department is Male,MIN
+show records with temperature more than 6,SELECT
+how many orders where duration is less than 9,COUNT
+avg budget of products,AVG
+largest population in records,MAX
+total experience where revenue is greater than 9,SUM
+find max duration of patients,MAX
+maximum value of experience,MAX
+what is the minimum revenue,MIN
+summation of price,SUM
+get students where revenue exceeds 37,SELECT
+what is avg marks of orders,AVG
+combined quantity of employees,SUM
+mean height of students,AVG
+total number of employees,COUNT
+what is the min height,MIN
+add up all gpa,SUM
+biggest price in records,MAX
+max weight of patients from active,MAX
+count all records,COUNT
+average age for each district,AVG
+sum of marks,SUM
+average quantity of orders,AVG
+sum all price,SUM
+find average gpa of students,AVG
+smallest experience in records,MIN
+how many students,COUNT
+total salary by country,SUM
+what is the average budget,AVG
+count records of orders,COUNT
+what is the total temperature,SUM
+find the lowest price,MIN
+greatest weight of orders,MAX
+who has the highest experience,MAX
+how many products from active,COUNT
+count records of students,COUNT
+number of students older than 81,COUNT
+lowest distance value in employees,MIN
+smallest experience in records,MIN
+find lowest income,MIN
+total temperature of employees,SUM
+sum all rating,SUM
+find the lowest experience,MIN
+how many patients are there,COUNT
+show orders older than 51,SELECT
+lowest budget of records,MIN
+smallest experience in records,MIN
+calculate total rating,SUM
+sum experience of all employees,SUM
+count records of students,COUNT
+least distance of employees,MIN
+max score of products from Dhaka,MAX
+number of products older than 76,COUNT
+min income of orders from EEE,MIN
+count employees where salary is below 89,COUNT
+get min temperature of employees,MIN
+summation of income,SUM
+count records where income is below 36,COUNT
+sum of gpa where city is active,SUM
+average duration where branch equals EEE,AVG
+highest revenue of patients,MAX
+who has the lowest marks,MIN
+minimum value of population,MIN
+find patients where type is active,SELECT
+retrieve all orders,SELECT
+find students where department is Dhaka,SELECT
+count students where age greater than 87,COUNT
+count all records,COUNT
+how many patients with city equal to Male,COUNT
+what is the max quantity,MAX
+show orders where duration is at least 59,SELECT
+add up all rating,SUM
+what is the total distance,SUM
+sum all distance,SUM
+show students below 84 revenue,SELECT
+who has the highest income,MAX
+display orders under 89 income,SELECT
+count students where height greater than 72,COUNT
+show students below 1 score,SELECT
+show products with category equal to B,SELECT
+list records where height between 6 and 38,SELECT
+highest income value in orders,MAX
+number of products with age above 9,COUNT
+greatest marks of employees,MAX
+find all products where population is greater than 41,SELECT
+sum weight of orders from Male,SUM
+add up all revenue,SUM
+greatest gpa of patients,MAX
+summation of age,SUM
+show orders with country B,SELECT
+get all products,SELECT
+how many patients have duration more than 80,COUNT
+sum of price,SUM
+sum of population where city is Male,SUM
+total number of patients,COUNT
+number of orders with age above 91,COUNT
+average salary for each branch,AVG
+number of orders with population above 17,COUNT
+find max population of employees,MAX
+count records from B,COUNT
+list products where age between 18 and 4,SELECT
+give me all products,SELECT
+total students in Male,COUNT
+bottom score value,MIN
+bottom score value,MIN
+find lowest quantity,MIN
+what is the lowest age,MIN
+find records from EEE,SELECT
+find total quantity of students,SUM
+average revenue by status,AVG
+maximum value of marks,MAX
+find average marks of patients,AVG
+find records where city is B,SELECT
+what is the average weight,AVG
+what is the min marks,MIN
+average revenue of products,AVG
+display all students,SELECT
+find the lowest duration,MIN
+show orders with marks above 71,SELECT
+show records with marks more than 32,SELECT
+how many employees from A,COUNT
+retrieve all records,SELECT
+find highest weight,MAX
+minimum experience where category is Female,MIN
+what is the mean budget,AVG
+sum of income,SUM
+show orders with marks above 67,SELECT
+get orders where population exceeds 84,SELECT
+maximum value of rating,MAX
+sum of price,SUM
+least score of products,MIN
+how many patients from Dhaka,COUNT
+greatest revenue of employees,MAX
+sum of revenue,SUM
+who has the lowest experience,MIN
+find the mean marks of all products,AVG
+smallest temperature in records,MIN
+add up all age,SUM
+smallest height in orders,MIN
+list all orders from EEE,SELECT
+summation of marks,SUM
+combined score of employees,SUM
+what is the average revenue,AVG
+find all orders where price is greater than 17,SELECT
+maximum rating,MAX
+show all orders,SELECT
+calculate average duration,AVG
+summation of quantity,SUM
+display students where experience is less than 75,SELECT
+find the highest distance,MAX
+highest weight of records,MAX
+how many employees with category equal to active,COUNT
+count students from Dhaka,COUNT
+lowest price of orders,MIN
+list all orders,SELECT
+total age of students,SUM
+avg revenue of records,AVG
+highest experience value in products,MAX
+smallest experience in patients,MIN
+tell me how many orders,COUNT
+sum gpa of all records,SUM
+biggest distance in records,MAX
+average gpa of students,AVG
+show products with temperature above 23,SELECT
+find lowest duration,MIN
+total products in Dhaka,COUNT
+find average rating of employees,AVG
+get min temperature of employees,MIN
+sum budget of employees from active,SUM
+how many records,COUNT
+display students where price is less than 57,SELECT
+average duration by branch,AVG
+find highest salary,MAX
+avg revenue of employees,AVG
+smallest distance in patients,MIN
+find total duration of patients,SUM
+what is the max price,MAX
+list records where budget between 29 and 37,SELECT
+show orders with type B,SELECT
+highest distance of employees,MAX
+what is the mean revenue,AVG
+min height of products from active,MIN
+mean budget where branch is Male,AVG
+average income for each level,AVG
+show records with department Dhaka,SELECT
+biggest weight in records,MAX
+what is the total budget,SUM
+what is the maximum gpa,MAX
+display patients under 38 duration,SELECT
+total weight of patients,SUM
+smallest distance in employees,MIN
+get min population of orders,MIN
+what is the lowest budget,MIN
+what is the average temperature,AVG
+what is the minimum price,MIN
+how many orders where salary is less than 1,COUNT
+display all students,SELECT
+who has the lowest weight,MIN
+count records of products,COUNT
+count products from inactive,COUNT
+add up all quantity,SUM
+lowest quantity value in students,MIN
+smallest score in records,MIN
+count students from Male,COUNT
+count all patients,COUNT
+mean value of distance,AVG
+what is the highest revenue,MAX
+find min rating of employees,MIN
+find employees from inactive,SELECT
+retrieve all records,SELECT
+how many patients from CSE,COUNT
+number of products older than 1,COUNT
+what is the minimum duration,MIN
+list all records from Male,SELECT
+minimum weight where region is Male,MIN
+number of patients with price above 55,COUNT
+top marks value,MAX
+find the lowest height,MIN
+get max score of employees,MAX
+show records older than 21,SELECT
+total income of employees,SUM
+min marks among products,MIN
+what is the min quantity,MIN
+total employees in Female,COUNT
+total number of products,COUNT
+find products where branch is B,SELECT
+total experience where price is greater than 91,SUM
+sum of gpa,SUM
+total age by level,SUM
+count records of products,COUNT
+what is the min marks,MIN
+find records where grade is CSE,SELECT
+total revenue for products,SUM
+minimum age,MIN
+fetch employees where rating is higher than 20,SELECT
+how many students where temperature is less than 19,COUNT
+find the mean distance of all orders,AVG
+sum of score where grade is Dhaka,SUM
+what is the minimum rating,MIN
+calculate total weight,SUM
+maximum value of revenue,MAX
+count all students,COUNT
+total quantity of products,SUM
+min price of products from EEE,MIN
+average population per category,AVG
+total count of products,COUNT
+sum age of products from Dhaka,SUM
+number of records with salary above 41,COUNT
+who has the highest income,MAX
+find the total revenue,SUM
+find the mean distance of all employees,AVG
+max weight of records from BBA,MAX
+what is the sum of budget,SUM
+average experience by level,AVG
+what is the mean rating,AVG
+how many employees where income is less than 87,COUNT
+what is the total duration,SUM
+lowest duration value in employees,MIN
+count students where temperature greater than 50,COUNT
+who has the lowest income,MIN
+how many products from CSE,COUNT
+biggest temperature in records,MAX
+get orders where population exceeds 72,SELECT
+show all patients,SELECT
+biggest gpa in records,MAX
+fetch records where temperature is higher than 8,SELECT
+display products where budget is less than 16,SELECT
+what is the maximum score,MAX
+total records in CSE,COUNT
+what is the mean rating,AVG
+smallest weight in records,MIN
+total number of orders,COUNT
+what is avg weight of employees,AVG
+count patients where status is Dhaka,COUNT
+how many patients,COUNT
+show all records,SELECT
+sum score of patients from Dhaka,SUM
+average rating of products where quantity is greater than 40,AVG
+find the mean height of all orders,AVG
+find highest price,MAX
+calculate total rating,SUM
+find lowest quantity,MIN
+avg score of products,AVG
+greatest gpa of patients,MAX
+min salary among employees,MIN
+total quantity of records,SUM
+total patients in Male,COUNT
+find average salary of students,AVG
+find average salary of orders,AVG
+show orders with rating above 73,SELECT
+average price where branch equals A,AVG
+find the total experience,SUM
+sum revenue of orders from BBA,SUM
+show patients below 60 population,SELECT
+count products where temperature greater than 40,COUNT
+what is the lowest distance,MIN
+count all employees,COUNT
+lowest quantity of orders,MIN
+minimum price,MIN
+largest duration in employees,MAX
+count all patients,COUNT
+compute average distance,AVG
+sum population of patients from Male,SUM
+lowest temperature value in orders,MIN
+count records where income is below 70,COUNT
+total employees in EEE,COUNT
+calculate total quantity,SUM
+show employees with experience above 98,SELECT
+total employees in Dhaka,COUNT
+what is the total duration,SUM
+overall income of students,SUM
+avg budget of products,AVG
+count products where marks is below 55,COUNT
+largest quantity in students,MAX
+bottom price value,MIN
+show me all orders,SELECT
+total duration where marks is greater than 57,SUM
+lowest income of records,MIN
+get all records,SELECT
+tell me how many employees,COUNT
+how many students,COUNT
+find all records where income is greater than 80,SELECT
+combined price of orders,SUM
+get min salary of employees,MIN
+total age from active,SUM
+greatest population of students,MAX
+minimum rating where department is A,MIN
+find max age of students,MAX
+find patients aged over 45,SELECT
+get max weight of products,MAX
+find highest height,MAX
+maximum temperature,MAX
+max weight among patients,MAX
+show students older than 8,SELECT
+what is the lowest weight,MIN
+min score among orders,MIN
+what is the total revenue,SUM
+average duration by category,AVG
+find the highest gpa,MAX
+what is the average salary,AVG
+fetch employees where score is higher than 32,SELECT
+show employees where age is B,SELECT
+find the lowest experience,MIN
+list products where region equals inactive,SELECT
+what is the highest experience,MAX
+find the highest weight,MAX
+average rating for each city,AVG
+show records where income is at least 51,SELECT
+average rating of patients from B,AVG
+get min experience of records,MIN
+largest weight in records,MAX
+total weight by status,SUM
+show records where height is A,SELECT
+what is avg budget of students,AVG
+sum all score,SUM
+how many orders where salary is less than 58,COUNT
+find the total gpa,SUM
+smallest quantity in records,MIN
+find the total population,SUM
+count products with gender inactive,COUNT
+summation of height,SUM
+compute average price,AVG
+count patients where quantity is below 16,COUNT
+show employees with category equal to BBA,SELECT
+what is the total income,SUM
+count records where quantity greater than 70,COUNT
+minimum value of temperature,MIN
+retrieve all students,SELECT
+average weight by department,AVG
+minimum revenue,MIN
+sum all income,SUM
+show patients where temperature is inactive,SELECT
+largest marks in patients,MAX
+how many students are there,COUNT
+show orders where population is EEE,SELECT
+mean quantity where gender is BBA,AVG
+total number of patients,COUNT
+number of patients with price above 8,COUNT
+show products where budget is inactive,SELECT
+how many records where weight is less than 4,COUNT
+what is the min distance,MIN
+total number of students,COUNT
+add up all revenue,SUM
+sum all duration,SUM
+show records with height more than 2,SELECT
+find patients where gender is EEE,SELECT
+list products where status equals inactive,SELECT
+what is the sum of population,SUM
+lowest income of records,MIN
+get max rating of records,MAX
+show students where duration is active,SELECT
+list products where height between 68 and 96,SELECT
+how many employees are there,COUNT
+fetch orders where gpa is higher than 18,SELECT
+avg distance of orders,AVG
+bottom weight value,MIN
+minimum value of weight,MIN
+average marks per city,AVG
+display orders under 82 income,SELECT
+what is the lowest experience,MIN
+calculate average gpa,AVG
+maximum gpa,MAX
+what is the total revenue,SUM
+find employees aged over 96,SELECT
+list students where rating between 26 and 67,SELECT
+sum all weight,SUM
+list products where income between 57 and 83,SELECT
+find total height of orders,SUM
+find min temperature of products,MIN
+avg revenue of students,AVG
+lowest revenue of products,MIN
+count all employees,COUNT
+what is the max distance,MAX
+find the lowest budget,MIN
+average population of orders,AVG
+average height by city,AVG
+sum rating of products from B,SUM
+find the lowest salary,MIN
+tell me how many students,COUNT
+what is the maximum revenue,MAX
+find the mean budget of all records,AVG
+get products where distance exceeds 8,SELECT
+find employees aged over 14,SELECT
+show records with quantity more than 95,SELECT
+find the highest population,MAX
+smallest population in orders,MIN
+min experience among students,MIN
+max marks among products,MAX
+list products where price between 99 and 70,SELECT
+highest experience of students,MAX
+retrieve all students,SELECT
+add up all income,SUM
+how many products have revenue more than 33,COUNT
+who has the highest duration,MAX
+display orders where gpa is less than 62,SELECT
+maximum experience where city is CSE,MAX
+sum of gpa,SUM
+minimum budget where type is Female,MIN
+combined distance of records,SUM
+find the mean gpa of all products,AVG
+calculate total revenue,SUM
+how many employees are there,COUNT
+maximum height where department is Dhaka,MAX
+who has the lowest price,MIN
+count all records,COUNT
+fetch employees where population is higher than 72,SELECT
+show all records,SELECT
+lowest experience of students,MIN
+total weight of orders,SUM
+how many orders from A,COUNT
+max temperature among patients,MAX
+maximum value of gpa,MAX
+tell me how many students,COUNT
+find the mean budget of all patients,AVG
+what is avg population of employees,AVG
+highest income of records,MAX
+lowest population value in records,MIN
+fetch products where distance is higher than 73,SELECT
+fetch records where experience is higher than 31,SELECT
+compute average weight,AVG
+give me all products,SELECT
+total rating by level,SUM
+list students where income between 8 and 73,SELECT
+compute average score,AVG
+count orders where status is A,COUNT
+get min gpa of patients,MIN
+total revenue of patients,SUM
+find orders where type is Dhaka,SELECT
+mean value of score,AVG
+what is the average experience,AVG
+average duration per city,AVG
+average revenue where department equals EEE,AVG
+sum all budget,SUM
+list all products from Dhaka,SELECT
+max price among employees,MAX
+find records where level is Male,SELECT
+what is the sum of height,SUM
+greatest revenue of patients,MAX
+what is the min salary,MIN
+count products with type active,COUNT
+what is the average marks,AVG
+get min population of orders,MIN
+what is the max price,MAX
+mean score of students,AVG
+show products where height is active,SELECT
+find highest population,MAX
+count orders from active,COUNT
+total rating of orders,SUM
+total gpa by gender,SUM
+top quantity value,MAX
+count orders where region is inactive,COUNT
+total budget for products,SUM
+retrieve all orders,SELECT
+min weight among products,MIN
+highest gpa of orders,MAX
+who has the highest weight,MAX
+total weight from Female,SUM
+count all records,COUNT
+what is the min marks,MIN
+total count of products,COUNT
+what is the highest marks,MAX
+average temperature where status equals inactive,AVG
+get max temperature of products,MAX
+find highest age,MAX
+smallest rating in records,MIN
+count all records,COUNT
+average rating of employees from EEE,AVG
+biggest population in records,MAX
+count records of records,COUNT
+minimum value of height,MIN
+find orders aged over 12,SELECT
+sum of salary,SUM
+total experience for students,SUM
+sum of revenue where category is Dhaka,SUM
+number of employees older than 34,COUNT
+combined salary of employees,SUM
+show orders older than 31,SELECT
+lowest gpa value in students,MIN
+find the lowest distance,MIN
+least experience of employees,MIN
+highest price of records,MAX
+count orders with district EEE,COUNT
+maximum marks where region is B,MAX
+calculate average revenue,AVG
+min experience of students from Dhaka,MIN
+display employees where experience is less than 73,SELECT
+smallest height in records,MIN
+highest age value in patients,MAX
+sum weight of all products,SUM
+compute average height,AVG
+total duration by department,SUM
+maximum temperature,MAX
+find max weight of records,MAX
+mean budget of patients,AVG
+number of students older than 20,COUNT
+count all records,COUNT
+add up all income,SUM
+biggest price in records,MAX
+how many patients where salary is less than 81,COUNT
+find the total income,SUM
+count all products,COUNT
+find the total population,SUM
+count records of students,COUNT
+average revenue for each grade,AVG
+what is the min revenue,MIN
+minimum salary,MIN
+find students where city is Female,SELECT
+find the highest rating,MAX
+what is the mean distance,AVG
+combined salary of records,SUM
+sum all gpa,SUM
+largest marks in orders,MAX
+how many employees are there,COUNT
+what is the min marks,MIN
+how many products from BBA,COUNT
+total number of employees,COUNT
+max experience of patients from BBA,MAX
+find highest income,MAX
+total height from inactive,SUM
+display orders where age is less than 97,SELECT
+highest age value in patients,MAX
+minimum value of age,MIN
+how many students are there,COUNT
+max budget of employees from A,MAX
+overall weight of students,SUM
+find min population of students,MIN
+min salary of products from EEE,MIN
+list all products from EEE,SELECT
+sum revenue of all students,SUM
+total experience by status,SUM
+show patients below 88 budget,SELECT
+display patients under 100 height,SELECT
+smallest weight in records,MIN
+what is the max distance,MAX
+sum all distance,SUM
+count records where income is below 75,COUNT
+list records where branch equals Female,SELECT
+bottom gpa value,MIN
+what is the mean distance,AVG
+total count of orders,COUNT
+list students where age between 69 and 53,SELECT
+show me all products,SELECT
+maximum gpa where status is CSE,MAX
+who has the highest budget,MAX
+count orders where age is below 55,COUNT
+find max price of orders,MAX
+count all orders,COUNT
+minimum value of weight,MIN
+minimum value of price,MIN
+how many patients with level equal to BBA,COUNT
+how many employees from B,COUNT
+find average marks of orders,AVG
+fetch products where marks is higher than 49,SELECT
+count products where duration greater than 99,COUNT
+minimum value of distance,MIN
+top gpa value,MAX
+minimum price,MIN
+compute average marks,AVG
+find the lowest weight,MIN
+sum of duration,SUM
+average price per branch,AVG
+calculate total height,SUM
+find the lowest weight,MIN
+what is the total experience,SUM
+sum population of all employees,SUM
+list all patients from A,SELECT
+lowest age of patients,MIN
+avg experience of orders,AVG
+what is the maximum population,MAX
+how many products from BBA,COUNT
+minimum value of experience,MIN
+find the highest income,MAX
+number of records with experience above 18,COUNT
+total rating by grade,SUM
+highest distance of employees,MAX
+mean age where type is inactive,AVG
+find min quantity of employees,MIN
+highest quantity of records,MAX
+what is the total income,SUM
+show patients where revenue is at least 64,SELECT
+find students from CSE,SELECT
+get records where height exceeds 28,SELECT
+count orders from Dhaka,COUNT
+what is the maximum budget,MAX
+average population of patients where quantity is greater than 94,AVG
+how many records with district equal to EEE,COUNT
+number of employees older than 37,COUNT
+average experience for each gender,AVG
+smallest rating in records,MIN
+total income where temperature is greater than 8,SUM
+how many products have revenue more than 85,COUNT
+total count of records,COUNT
+minimum temperature,MIN
+what is the lowest quantity,MIN
+list employees where level equals EEE,SELECT
+avg salary of records,AVG
+count products where salary is below 28,COUNT
+minimum marks where status is Male,MIN
+how many employees where marks is less than 88,COUNT
+highest height of records,MAX
+highest revenue value in records,MAX
+fetch students where age is higher than 30,SELECT
+get all products,SELECT
+sum height of products from B,SUM
+greatest score of students,MAX
+find lowest score,MIN
+calculate average price,AVG
+minimum revenue,MIN
+max score among products,MAX
+sum of marks where type is B,SUM
+average weight of students,AVG
+count products where category is BBA,COUNT
+list patients where distance between 46 and 83,SELECT
+overall weight of patients,SUM
+minimum value of rating,MIN
+minimum distance where district is Dhaka,MIN
+get max population of records,MAX
+find products aged over 32,SELECT
+fetch orders where age is higher than 6,SELECT
+mean value of height,AVG
+retrieve all records,SELECT
+what is the sum of rating,SUM
+show employees with duration above 81,SELECT
+get max age of products,MAX
+largest temperature in employees,MAX
+how many employees where revenue is less than 66,COUNT
+highest quantity of products,MAX
+list patients where grade equals B,SELECT
+minimum rating where city is Male,MIN
+count all records,COUNT
+how many employees are there,COUNT
+how many records have quantity more than 91,COUNT
+maximum score,MAX
+who has the highest revenue,MAX
+count employees with type BBA,COUNT
+minimum quantity,MIN
+minimum value of weight,MIN
+total price from CSE,SUM
+find all patients where rating is greater than 36,SELECT
+min population among products,MIN
+combined price of products,SUM
+average population by type,AVG
+retrieve all records,SELECT
+maximum duration where status is Dhaka,MAX
+smallest quantity in records,MIN
+smallest quantity in patients,MIN
+what is the average marks,AVG
+minimum distance,MIN
+sum experience of patients from Female,SUM
+minimum experience,MIN
+total marks for employees,SUM
+who has the highest budget,MAX
+what is the sum of price,SUM
+average price of patients where salary is greater than 77,AVG
+count records from EEE,COUNT
+mean price of students,AVG
+how many orders,COUNT
+retrieve all employees,SELECT
+total count of employees,COUNT
+mean marks where country is inactive,AVG
+average temperature of employees from A,AVG
+average age of products where quantity is greater than 93,AVG
+get max price of students,MAX
+find average salary of students,AVG
+find total marks of students,SUM
+what is the min revenue,MIN
+least duration of orders,MIN
+highest distance of employees,MAX
+show products older than 62,SELECT
+show records older than 93,SELECT
+lowest quantity value in records,MIN
+tell me how many patients,COUNT
+min population among records,MIN
+find employees from Dhaka,SELECT
+top age value,MAX
+minimum score,MIN
+what is the minimum price,MIN
+least quantity of orders,MIN
+biggest height in records,MAX
+how many patients where experience is less than 56,COUNT
+show products with income above 50,SELECT
+who has the lowest revenue,MIN
+get min weight of students,MIN
+show products older than 99,SELECT
+lowest population value in orders,MIN
+mean height of students,AVG
+compute average weight,AVG
+how many patients with department equal to Male,COUNT
+total marks of employees,SUM
+average quantity by type,AVG
+count patients where city is Dhaka,COUNT
+mean budget of orders,AVG
+add up all score,SUM
+what is the lowest experience,MIN
+find records where grade is Dhaka,SELECT
+average price per gender,AVG
+maximum value of height,MAX
+tell me how many employees,COUNT
+who has the lowest revenue,MIN
+largest salary in patients,MAX
+number of students older than 58,COUNT
+top temperature value,MAX
+average gpa for each district,AVG
+what is avg height of records,AVG
+minimum value of gpa,MIN
+total age for records,SUM
+how many orders with country equal to BBA,COUNT
+maximum value of budget,MAX
+count patients where city is EEE,COUNT
+show all orders,SELECT
+how many students where population is less than 76,COUNT
+average weight of orders,AVG
+sum all score,SUM
+find average distance of products,AVG
+count records where budget is below 91,COUNT
+list products where temperature between 97 and 21,SELECT
+find highest score,MAX
+how many orders have age more than 46,COUNT
+show employees below 90 income,SELECT
+highest age value in products,MAX
+find lowest duration,MIN
+number of employees with experience above 4,COUNT
+maximum value of revenue,MAX
+overall budget of orders,SUM
+average gpa per city,AVG
+bottom experience value,MIN
+mean value of distance,AVG
+show orders older than 69,SELECT
+what is the mean marks,AVG
+find employees where category is B,SELECT
+what is the max rating,MAX
+how many products,COUNT
+smallest income in records,MIN
+find all employees where weight is greater than 76,SELECT
+mean budget of patients,AVG
+what is the highest revenue,MAX
+average population of products from B,AVG
+total employees in A,COUNT
+count all records,COUNT
+list all students from EEE,SELECT
+display all employees,SELECT
+summation of population,SUM
+show orders older than 26,SELECT
+minimum gpa where department is active,MIN
+show records where salary is active,SELECT
+count orders where distance is below 29,COUNT
+display products where quantity is less than 13,SELECT
+display employees under 17 quantity,SELECT
+average price of records where price is greater than 50,AVG
+mean value of price,AVG
+avg age of employees,AVG
+maximum distance where type is Dhaka,MAX
+count all records,COUNT
+sum all revenue,SUM
+summation of salary,SUM
+average salary of products where marks is greater than 28,AVG
+count records of employees,COUNT
+min quantity among products,MIN
+sum of temperature where status is EEE,SUM
+what is the max score,MAX
+number of orders older than 24,COUNT
+biggest population in records,MAX
+what is the maximum quantity,MAX
+highest experience value in orders,MAX
+count records of orders,COUNT
+number of patients with marks above 82,COUNT
+mean marks of employees,AVG
+add up all gpa,SUM
+sum all experience,SUM
+maximum value of duration,MAX
+get min age of records,MIN
+mean rating where grade is B,AVG
+count records of students,COUNT
+what is the total revenue,SUM
+avg price of patients,AVG
+show all products,SELECT
+find students where city is B,SELECT
+what is the mean height,AVG
+show students below 26 rating,SELECT
+average temperature of records where budget is greater than 56,AVG
+get max population of products,MAX
+what is the maximum marks,MAX
+mean value of budget,AVG
+least height of records,MIN
+least quantity of orders,MIN
+compute average experience,AVG
+how many students where price is less than 40,COUNT
+smallest gpa in records,MIN
+sum age of all orders,SUM
+show products older than 94,SELECT
+count all students,COUNT
+average duration where category equals active,AVG
+retrieve all orders,SELECT
+what is the highest salary,MAX
+tell me how many employees,COUNT
+add up all marks,SUM
+combined marks of patients,SUM
+max height among employees,MAX
+smallest height in employees,MIN
+total experience for employees,SUM
+average salary for each status,AVG
+maximum value of age,MAX
+sum of weight,SUM
+number of students older than 28,COUNT
+sum experience of patients from A,SUM
+find highest height,MAX
+minimum rating,MIN
+find min budget of orders,MIN
+how many records where income is less than 3,COUNT
+what is the total weight,SUM
+find lowest duration,MIN
+show all orders,SELECT
+compute average distance,AVG
+show records where score is at least 94,SELECT
+bottom distance value,MIN
+what is the total marks,SUM
+total number of records,COUNT
+get max age of employees,MAX
+average budget per department,AVG
+what is the min duration,MIN
+find the highest population,MAX
+find all orders where budget is greater than 19,SELECT
+mean income where city is EEE,AVG
+calculate total age,SUM
+show employees with city CSE,SELECT
+total temperature for orders,SUM
+what is the lowest age,MIN
+how many patients with type equal to B,COUNT
+combined salary of records,SUM
+who has the highest duration,MAX
+find highest experience,MAX
+mean budget where level is EEE,AVG
+total employees in BBA,COUNT
+mean price of products,AVG
+show employees where weight is active,SELECT
+get all employees,SELECT
+display students where duration is less than 19,SELECT
+sum all age,SUM
+what is the max salary,MAX
+smallest height in products,MIN
+find average rating of orders,AVG
+get max income of students,MAX
+max gpa among employees,MAX
+count records where experience greater than 71,COUNT
+smallest budget in records,MIN
+maximum value of distance,MAX
+what is the min salary,MIN
+smallest rating in records,MIN
+avg quantity of products,AVG
+who has the lowest price,MIN
+mean income of students,AVG
+find the highest quantity,MAX
+maximum value of duration,MAX
+total gpa of employees,SUM
+count records of orders,COUNT
+show orders where income is at least 42,SELECT
+mean value of weight,AVG
+show students with duration above 99,SELECT
+get max budget of records,MAX
+overall age of records,SUM
+maximum price where type is active,MAX
+sum quantity of orders from active,SUM
+give me all patients,SELECT
+display products where price is less than 26,SELECT
+highest price of orders,MAX
+show patients where experience is at least 64,SELECT
+avg budget of records,AVG
+smallest age in records,MIN
+minimum experience where gender is B,MIN
+least weight of students,MIN
+give me all employees,SELECT
+who has the lowest price,MIN
+total gpa of patients,SUM
+average experience of employees from active,AVG
+get records where salary exceeds 62,SELECT
+maximum revenue where country is Male,MAX
+min price among employees,MIN
+show records with grade inactive,SELECT
+find the mean budget of all employees,AVG
+find total salary of students,SUM
+mean weight of records,AVG
+show patients older than 6,SELECT
+who has the lowest marks,MIN
+least gpa of products,MIN
+find min temperature of orders,MIN
+average income for each department,AVG
+average marks by branch,AVG
+list patients where duration between 24 and 63,SELECT
+find highest quantity,MAX
+count patients where quantity is below 51,COUNT
+find highest experience,MAX
+what is the total experience,SUM
+add up all marks,SUM
+total budget for records,SUM
+maximum rating,MAX
+list students where district equals B,SELECT
+biggest distance in records,MAX
+average budget by type,AVG
+total income where temperature is greater than 5,SUM
+calculate average rating,AVG
+give me all records,SELECT
+lowest score value in orders,MIN
+find products aged over 16,SELECT
+what is the mean marks,AVG
+add up all gpa,SUM
+get max price of patients,MAX
+average salary of students from Dhaka,AVG
+average rating where city equals Female,AVG
+find all employees where rating is greater than 71,SELECT
+min marks of patients from inactive,MIN
+count records from Male,COUNT
+count all records,COUNT
+smallest population in records,MIN
+retrieve all patients,SELECT
+find the highest quantity,MAX
+count products where department is BBA,COUNT
+avg weight of employees,AVG
+what is the sum of price,SUM
+what is the minimum income,MIN
+compute average income,AVG
+get min salary of orders,MIN
+find the highest population,MAX
+what is avg experience of employees,AVG
+number of students older than 86,COUNT
+total score of products,SUM
+number of products older than 24,COUNT
+total marks for orders,SUM
+find max budget of patients,MAX
+find highest experience,MAX
+how many products,COUNT
+count products with department active,COUNT
+show students with score above 66,SELECT
+find min budget of products,MIN
+min age of products from EEE,MIN
+maximum gpa where department is inactive,MAX
+what is the mean salary,AVG
+mean value of marks,AVG
+list products where branch equals Male,SELECT
+what is the mean temperature,AVG
+maximum value of distance,MAX
+find lowest age,MIN
+count all records,COUNT
+how many records,COUNT
+mean height where grade is CSE,AVG
+mean height where branch is Dhaka,AVG
+list all students from A,SELECT
+find the highest age,MAX
+find the highest revenue,MAX
+count orders where marks greater than 11,COUNT
+total quantity for students,SUM
+average gpa per type,AVG
+what is the mean revenue,AVG
+get max rating of products,MAX
+retrieve all orders,SELECT
+average score of orders,AVG
+how many orders where revenue is less than 55,COUNT
+greatest revenue of employees,MAX
+count orders where status is Male,COUNT
+minimum population where type is active,MIN
+list all orders,SELECT
+list all employees from inactive,SELECT
+max quantity of records from Female,MAX
+show products with score above 43,SELECT
+count orders where budget is below 67,COUNT
+what is the mean gpa,AVG
+who has the highest salary,MAX
+total distance of patients,SUM
+minimum height,MIN
+show patients where rating is Male,SELECT
+average quantity of patients where age is greater than 97,AVG
+summation of distance,SUM
+get patients where distance exceeds 60,SELECT
+count students with country inactive,COUNT
+what is avg temperature of products,AVG
+total age by level,SUM
+how many patients have quantity more than 62,COUNT
+total temperature for products,SUM
+list all students from Female,SELECT
+total population by category,SUM
+count all records,COUNT
+find max marks of orders,MAX
+find the total weight,SUM
+find the total temperature,SUM
+what is the average age,AVG
+get max gpa of orders,MAX
+what is avg quantity of records,AVG
+find the lowest distance,MIN
+what is the total gpa,SUM
+count all employees,COUNT
+count products from EEE,COUNT
+lowest marks of employees,MIN
+least height of employees,MIN
+minimum experience,MIN
+what is the lowest salary,MIN
+maximum population,MAX
+maximum marks,MAX
+what is the minimum score,MIN
+show employees with duration above 35,SELECT
+sum of height where gender is Male,SUM
+what is the minimum distance,MIN
+average budget for each category,AVG
+number of patients with duration above 78,COUNT
+show records where experience is Male,SELECT
+average rating by department,AVG
+smallest distance in records,MIN
+sum of budget,SUM
+largest duration in patients,MAX
+get max price of patients,MAX
+min duration of orders from Female,MIN
+what is the average score,AVG
+find the mean budget of all orders,AVG
+count orders where gender is Male,COUNT
+min revenue among orders,MIN
+how many students have duration more than 67,COUNT
+show records with age more than 17,SELECT
+greatest height of patients,MAX
+add up all height,SUM
+what is the mean distance,AVG
+smallest marks in employees,MIN
+give me all students,SELECT
+find max income of products,MAX
+average population for each status,AVG
+total height for students,SUM
+count all products,COUNT
+summation of budget,SUM
+total population from B,SUM
+lowest budget value in employees,MIN
+average budget by city,AVG
+how many employees with district equal to CSE,COUNT
+add up all weight,SUM
+what is the total temperature,SUM
+show all orders,SELECT
+mean value of score,AVG
+minimum height,MIN
+how many orders have duration more than 51,COUNT
+greatest height of students,MAX
+what is the lowest population,MIN
+count all orders,COUNT
+how many orders with city equal to EEE,COUNT
+display all employees,SELECT
+how many orders where revenue is less than 25,COUNT
+find the mean income of all students,AVG
+give me all patients,SELECT
+find the lowest gpa,MIN
+how many orders are there,COUNT
+show products with district equal to inactive,SELECT
+minimum value of distance,MIN
+combined score of employees,SUM
+how many products are there,COUNT
+find the highest price,MAX
+count all orders,COUNT
+total duration of records,SUM
+find highest height,MAX
+retrieve all students,SELECT
+how many products have revenue more than 4,COUNT
+list all orders,SELECT
+greatest temperature of products,MAX
+find orders from inactive,SELECT
+lowest experience of employees,MIN
+find the mean distance of all employees,AVG
+show students below 10 marks,SELECT
+lowest score value in records,MIN
+get max rating of products,MAX
+combined score of products,SUM
+get min age of products,MIN
+tell me how many students,COUNT
+least age of students,MIN
+what is the highest budget,MAX
+who has the lowest height,MIN
+count all records,COUNT
+maximum value of budget,MAX
+total employees in A,COUNT
+find the total rating,SUM
+count employees where score is below 90,COUNT
+give me all products,SELECT
+sum of age,SUM
+count records where grade is CSE,COUNT
+min salary of students from A,MIN
+find max revenue of patients,MAX
+smallest quantity in employees,MIN
+what is the total salary,SUM
+list all patients from inactive,SELECT
+total orders in Male,COUNT
+mean value of income,AVG
+find min temperature of students,MIN
+what is the lowest marks,MIN
+find highest experience,MAX
+add up all income,SUM
+what is the minimum score,MIN
+total gpa by type,SUM
+count orders from inactive,COUNT
+highest weight of records,MAX
+total score of patients,SUM
+what is the max height,MAX
+total number of employees,COUNT
+find the mean price of all employees,AVG
+what is the minimum quantity,MIN
+minimum value of marks,MIN
+what is the sum of temperature,SUM
+show employees below 43 score,SELECT
+total price by city,SUM
+maximum height,MAX
+total revenue where income is greater than 19,SUM
+biggest distance in records,MAX
+maximum distance,MAX
+count patients where category is Female,COUNT
+how many products from inactive,COUNT
+get max score of orders,MAX
+list all patients from inactive,SELECT
+sum weight of orders from B,SUM
+lowest marks value in students,MIN
+sum budget of patients from B,SUM
+count records where income greater than 17,COUNT
+find the total budget,SUM
+find the mean age of all students,AVG
+minimum value of age,MIN
+show students where population is at least 9,SELECT
+find employees aged over 64,SELECT
+show products where height is BBA,SELECT
+get all patients,SELECT
+sum of weight where country is Dhaka,SUM
+tell me how many orders,COUNT
+get patients where budget exceeds 99,SELECT
+min distance among patients,MIN
+minimum population where department is active,MIN
+give me all students,SELECT
+mean score where level is active,AVG
+calculate average age,AVG
+bottom salary value,MIN
+what is the total weight,SUM
+what is the lowest score,MIN
+count all products,COUNT
+what is the maximum rating,MAX
+sum of population where category is A,SUM
+display patients under 90 quantity,SELECT
+total products in inactive,COUNT
+total temperature of employees,SUM
+average weight of employees from BBA,AVG
+sum of income,SUM
+retrieve all patients,SELECT
+biggest gpa in records,MAX
+maximum value of distance,MAX
+sum budget of students from BBA,SUM
+total income by department,SUM
+count all records,COUNT
+highest price value in records,MAX
+who has the lowest distance,MIN
+give me all students,SELECT
+smallest marks in records,MIN
+average temperature where district equals active,AVG
+show employees below 85 quantity,SELECT
+count patients where branch is BBA,COUNT
+tell me how many orders,COUNT
+total height from B,SUM
+mean experience where gender is Female,AVG
+total count of students,COUNT
+list all records from A,SELECT
+sum all weight,SUM
+what is avg income of students,AVG
+find lowest price,MIN
+total age from Dhaka,SUM
+count records where type is EEE,COUNT
+how many students from active,COUNT
+avg salary of patients,AVG
+show employees with country active,SELECT
+count records of orders,COUNT
+fetch records where marks is higher than 20,SELECT
+count all records,COUNT
+sum of distance,SUM
+highest budget of patients,MAX
+how many patients are there,COUNT
+add up all salary,SUM
+summation of population,SUM
+average gpa where type equals active,AVG
+sum of quantity,SUM
+list records where grade equals BBA,SELECT
+get records where temperature exceeds 41,SELECT
+total orders in EEE,COUNT
+count employees where temperature greater than 56,COUNT
+who has the lowest rating,MIN
+bottom score value,MIN
+find lowest rating,MIN
+show patients where distance is at least 49,SELECT
+count patients from Dhaka,COUNT
+smallest quantity in records,MIN
+sum of quantity where status is B,SUM
+minimum income where region is Male,MIN
+number of orders older than 94,COUNT
+avg height of students,AVG
+how many employees,COUNT
+find records where grade is Dhaka,SELECT
+total experience where quantity is greater than 41,SUM
+retrieve all patients,SELECT
+total weight from B,SUM
+calculate total weight,SUM
+mean value of revenue,AVG
+what is the average price,AVG
+minimum experience where branch is Dhaka,MIN
+calculate total rating,SUM
+show employees where price is at least 2,SELECT
+total temperature of orders,SUM
+display products under 95 marks,SELECT
+who has the highest quantity,MAX
+average distance where branch equals Female,AVG
+get orders where gpa exceeds 65,SELECT
+list records where salary between 5 and 95,SELECT
+average rating for each district,AVG
+list orders where marks between 90 and 42,SELECT
+count all records,COUNT
+show students with gender equal to BBA,SELECT
+count records of students,COUNT
+lowest population of products,MIN
+find max price of employees,MAX
+max temperature among orders,MAX
+average weight of students,AVG
+average population of products,AVG
+get min quantity of patients,MIN
+display employees under 52 budget,SELECT
+how many records are there,COUNT
+give me all orders,SELECT
+show all employees,SELECT
+mean value of rating,AVG
+minimum value of gpa,MIN
+count records of orders,COUNT
+count students where salary greater than 93,COUNT
+summation of salary,SUM
+show patients with status EEE,SELECT
+average gpa of orders where marks is greater than 19,AVG
+find lowest income,MIN
+largest height in orders,MAX
+count patients where country is CSE,COUNT
+get patients where duration exceeds 24,SELECT
+get min revenue of employees,MIN
+show employees with status equal to A,SELECT
+mean value of score,AVG
+find the lowest height,MIN
+what is the sum of weight,SUM
+total experience from Male,SUM
+total distance from CSE,SUM
+biggest salary in records,MAX
+sum all age,SUM
+minimum value of marks,MIN
+who has the highest score,MAX
+sum of height where gender is CSE,SUM
+how many records,COUNT
+get min temperature of patients,MIN
+smallest gpa in records,MIN
+sum revenue of all employees,SUM
+total number of products,COUNT
+total distance where marks is greater than 6,SUM
+average population of orders where gpa is greater than 68,AVG
+show students with status Male,SELECT
+sum revenue of all products,SUM
+show students with gpa above 53,SELECT
+what is the min distance,MIN
+what is the minimum budget,MIN
+retrieve all employees,SELECT
+sum marks of students from Male,SUM
+what is the mean quantity,AVG
+find the lowest weight,MIN
+show orders below 43 distance,SELECT
+what is the min price,MIN
+combined marks of employees,SUM
+highest quantity value in patients,MAX
+show students below 59 marks,SELECT
+count all patients,COUNT
+display students under 11 distance,SELECT
+show products with category equal to EEE,SELECT
+average height of products,AVG
+find the total weight,SUM
+calculate total experience,SUM
+show records with gpa more than 70,SELECT
+what is the minimum quantity,MIN
+get max score of orders,MAX
+show records older than 21,SELECT
+min price of products from BBA,MIN
+top duration value,MAX
+sum weight of patients from active,SUM
+find the highest income,MAX
+average gpa of employees,AVG
+list all products,SELECT
+combined score of employees,SUM
+maximum temperature,MAX
+average age per status,AVG
+smallest marks in records,MIN
+what is avg quantity of employees,AVG
+mean temperature where status is Male,AVG
+mean value of marks,AVG
+who has the highest population,MAX
+show all records,SELECT
+least age of patients,MIN
+show records below 83 weight,SELECT
+count products where duration greater than 39,COUNT
+min height of patients from inactive,MIN
+show records with population more than 43,SELECT
+min price among products,MIN
+show all students,SELECT
+count products from B,COUNT
+find average marks of products,AVG
+find the total rating,SUM
+count all records,COUNT
+find min age of records,MIN
+fetch patients where score is higher than 31,SELECT
+maximum value of salary,MAX
+count orders where score greater than 13,COUNT
+average income per gender,AVG
+count all employees,COUNT
+total gpa from EEE,SUM
+give me all students,SELECT
+max weight of employees from CSE,MAX
+find the highest height,MAX
+how many products where gpa is less than 94,COUNT
+find the total rating,SUM
+average salary of employees,AVG
+what is the total population,SUM
+find the lowest income,MIN
+maximum value of height,MAX
+retrieve all products,SELECT
+count products where income is below 65,COUNT
+how many employees from inactive,COUNT
+find all patients where quantity is greater than 68,SELECT
+minimum value of population,MIN
+how many records from Dhaka,COUNT
+find records aged over 51,SELECT
+top quantity value,MAX
+smallest distance in products,MIN
+how many employees,COUNT
+avg revenue of records,AVG
+smallest population in records,MIN
+compute average revenue,AVG
+largest height in records,MAX
+retrieve all orders,SELECT
+list patients where region equals A,SELECT
+how many orders have revenue more than 19,COUNT
+find all products where temperature is greater than 11,SELECT
+add up all weight,SUM
+total temperature from inactive,SUM
+how many patients,COUNT
+biggest rating in records,MAX
+how many employees from active,COUNT
+show products where weight is at least 28,SELECT
+minimum value of age,MIN
+what is avg rating of students,AVG
+what is the lowest age,MIN
+sum population of records from B,SUM
+average budget where district equals EEE,AVG
+total products in A,COUNT
+display records where marks is less than 30,SELECT
+bottom gpa value,MIN
+give me all students,SELECT
+number of records with experience above 75,COUNT
+total experience from EEE,SUM
+what is the minimum revenue,MIN
+number of employees older than 65,COUNT
+find the mean duration of all patients,AVG
+tell me how many students,COUNT
+maximum value of income,MAX
+count all patients,COUNT
+mean duration of products,AVG
+lowest distance value in orders,MIN
+avg rating of records,AVG
+largest quantity in patients,MAX
+min marks among students,MIN
+how many patients with region equal to Male,COUNT
+retrieve all records,SELECT
+who has the highest price,MAX
+find orders from B,SELECT
+total students in EEE,COUNT
+count students where district is inactive,COUNT
+what is the minimum score,MIN
+fetch patients where score is higher than 36,SELECT
+what is the max quantity,MAX
+find average score of records,AVG
+count patients where gender is Male,COUNT
+add up all age,SUM
+what is the average revenue,AVG
+find the highest rating,MAX
+what is the min experience,MIN
+count students where experience greater than 82,COUNT
+maximum budget,MAX
+highest gpa value in employees,MAX
+lowest weight value in students,MIN
+maximum value of duration,MAX
+count records of patients,COUNT
+largest age in products,MAX
+average marks per grade,AVG
+find max marks of patients,MAX
+highest salary of orders,MAX
+number of records with weight above 3,COUNT
+who has the highest revenue,MAX
+who has the highest temperature,MAX
+how many orders,COUNT
+find the mean quantity of all students,AVG
+number of employees older than 12,COUNT
+minimum value of salary,MIN
+highest budget value in patients,MAX
+count patients where experience greater than 31,COUNT
+show orders where distance is at least 20,SELECT
+how many orders have duration more than 39,COUNT
+average distance by grade,AVG
+average height of employees from Dhaka,AVG
+count records where weight is below 83,COUNT
+average age for each status,AVG
+least score of patients,MIN
+smallest marks in records,MIN
+get min price of students,MIN
+find the mean revenue of all patients,AVG
+mean height where city is EEE,AVG
+how many employees from Dhaka,COUNT
+get records where distance exceeds 86,SELECT
+max temperature among orders,MAX
+what is the highest income,MAX
+summation of price,SUM
+find all orders where salary is greater than 13,SELECT
+count all records,COUNT
+least price of students,MIN
+what is the average distance,AVG
+biggest budget in records,MAX
+minimum score where country is active,MIN
+tell me how many orders,COUNT
+count all records,COUNT
+mean salary of products,AVG
+how many patients where price is less than 37,COUNT
+list students where distance between 61 and 95,SELECT
+least distance of orders,MIN
+find employees aged over 29,SELECT
+what is the mean revenue,AVG
+mean value of marks,AVG
+lowest temperature of students,MIN
+number of employees with age above 23,COUNT
+show all products,SELECT
+what is the max temperature,MAX
+largest rating in orders,MAX
+maximum score,MAX
+top budget value,MAX
+sum of experience,SUM
+find the total duration,SUM
+smallest gpa in records,MIN
+largest weight in patients,MAX
+max score of records from inactive,MAX
+average revenue for each level,AVG
+show products where score is at least 82,SELECT
+smallest marks in products,MIN
+list employees where budget between 59 and 57,SELECT
+total income by district,SUM
+max population among patients,MAX
+find orders where gender is CSE,SELECT
+find orders where country is inactive,SELECT
+average price of students from active,AVG
+find the total score,SUM
+who has the highest temperature,MAX
+calculate average experience,AVG
+calculate total gpa,SUM
+count patients where height greater than 5,COUNT
+average distance by country,AVG
+combined height of products,SUM
+number of employees older than 92,COUNT
+overall height of employees,SUM
+min age among records,MIN
+mean experience where department is BBA,AVG
+average income of products from Female,AVG
+minimum rating,MIN
+find total duration of patients,SUM
+highest height of products,MAX
+find the mean duration of all students,AVG
+highest revenue of patients,MAX
+sum quantity of all products,SUM
+number of records older than 50,COUNT
+maximum marks,MAX
+retrieve all records,SELECT
+least age of patients,MIN
+count employees from A,COUNT
+maximum value of age,MAX
+display all products,SELECT
+show me all students,SELECT
+highest quantity of products,MAX
+count employees where rating greater than 49,COUNT
+how many employees have revenue more than 71,COUNT
+find average weight of patients,AVG
+top income value,MAX
+smallest weight in patients,MIN
+count all products,COUNT
+find the highest budget,MAX
+calculate total temperature,SUM
+total count of employees,COUNT
+total experience for orders,SUM
+find the highest score,MAX
+total weight by branch,SUM
+mean duration where branch is CSE,AVG
+max gpa of students from BBA,MAX
+what is the total revenue,SUM
+what is the mean temperature,AVG
+minimum height,MIN
+find total salary of patients,SUM
+count all records,COUNT
+how many records where score is less than 8,COUNT
+show orders where temperature is Dhaka,SELECT
+get max age of products,MAX
+average weight of patients,AVG
+average distance per category,AVG
+tell me how many employees,COUNT
+count employees where district is BBA,COUNT
+what is the sum of distance,SUM
+combined quantity of orders,SUM
+average experience for each region,AVG
+total budget by type,SUM
+find the total quantity,SUM
+min revenue of patients from CSE,MIN
+minimum value of gpa,MIN
+what is the lowest weight,MIN
+average weight by type,AVG
+total distance of students,SUM
+find the highest distance,MAX
+maximum value of income,MAX
+min salary among employees,MIN
+find the mean height of all patients,AVG
+how many orders are there,COUNT
+minimum height,MIN
+highest score value in employees,MAX
+average budget of patients from inactive,AVG
+total quantity where income is greater than 11,SUM
+tell me how many orders,COUNT
+how many students from CSE,COUNT
+combined budget of students,SUM
+get min score of students,MIN
+what is the average budget,AVG
+mean value of temperature,AVG
+who has the highest gpa,MAX
+total rating of students,SUM
+highest experience value in records,MAX
+get max duration of products,MAX
+what is the maximum revenue,MAX
+show patients where height is EEE,SELECT
+average height where level equals Male,AVG
+largest revenue in orders,MAX
+add up all distance,SUM
+total number of employees,COUNT
+get min experience of orders,MIN
+lowest duration of employees,MIN
+count patients with region BBA,COUNT
+total age where height is greater than 37,SUM
+sum age of all orders,SUM
+what is the lowest weight,MIN
+what is the minimum rating,MIN
+find employees from B,SELECT
+how many patients from EEE,COUNT
+average price where gender equals Female,AVG
+what is the total temperature,SUM
+find average gpa of records,AVG
+total marks of employees,SUM
+calculate total height,SUM
+total marks of employees,SUM
+display patients where weight is less than 96,SELECT
+bottom gpa value,MIN
+display orders where temperature is less than 49,SELECT
+show records with score more than 11,SELECT
+who has the lowest temperature,MIN
+bottom salary value,MIN
+add up all quantity,SUM
+count records where grade is A,COUNT
+mean experience where category is EEE,AVG
+list all records from BBA,SELECT
+combined population of orders,SUM
+combined income of students,SUM
+sum quantity of employees from EEE,SUM
+what is the min distance,MIN
+summation of marks,SUM
+maximum value of income,MAX
+lowest quantity value in products,MIN
+find the total height,SUM
+avg quantity of employees,AVG
+average population for each branch,AVG
+find max marks of orders,MAX
+avg distance of students,AVG
+maximum value of experience,MAX
+max distance of employees from inactive,MAX
+get all patients,SELECT
+average height by branch,AVG
+find the mean revenue of all employees,AVG
+sum rating of all products,SUM
+minimum budget,MIN
+sum of height where level is active,SUM
+count records with grade CSE,COUNT
+who has the highest experience,MAX
+find average distance of orders,AVG
+average age per category,AVG
+total temperature where gpa is greater than 9,SUM
+what is the maximum salary,MAX
+total marks by type,SUM
+what is the total income,SUM
+average weight of records,AVG
+max marks of records from Female,MAX
+minimum value of temperature,MIN
+average revenue where region equals Male,AVG
+count records where city is Female,COUNT
+greatest experience of students,MAX
+total gpa by type,SUM
+get patients where quantity exceeds 86,SELECT
+show products where age is Female,SELECT
+who has the lowest score,MIN
+what is the mean salary,AVG
+find average duration of employees,AVG
+count all records,COUNT
+average gpa by level,AVG
+average temperature of employees from B,AVG
+count employees from inactive,COUNT
+find max marks of patients,MAX
+find min income of patients,MIN
+biggest income in records,MAX
+find lowest population,MIN
+largest income in patients,MAX
+add up all budget,SUM
+what is the lowest income,MIN
+sum price of orders from active,SUM
+show employees where duration is EEE,SELECT
+show patients with temperature above 6,SELECT
+lowest income value in employees,MIN
+how many records from Female,COUNT
+show me all records,SELECT
+show products below 10 gpa,SELECT
+find patients aged over 49,SELECT
+tell me how many orders,COUNT
+least duration of orders,MIN
+minimum value of population,MIN
+find products where level is BBA,SELECT
+show me all products,SELECT
+display all records,SELECT
+find average revenue of students,AVG
+retrieve all patients,SELECT
+average budget of students,AVG
+highest price of students,MAX
+get max weight of products,MAX
+how many employees have experience more than 9,COUNT
+count orders from CSE,COUNT
+total temperature from inactive,SUM
+show records where temperature is at least 22,SELECT
+show orders with district equal to Male,SELECT
+get max gpa of employees,MAX
+find max distance of records,MAX
+count all records,COUNT
+find total marks of patients,SUM
+avg marks of patients,AVG
+what is the mean temperature,AVG
+what is the minimum budget,MIN
+mean value of quantity,AVG
+what is the average score,AVG
+find the total age,SUM
+find the mean salary of all products,AVG
+what is the sum of duration,SUM
+total score by category,SUM
+show employees older than 41,SELECT
+min rating of students from inactive,MIN
+count orders with department Male,COUNT
+find the highest salary,MAX
+max price among students,MAX
+greatest distance of orders,MAX
+show records with gender BBA,SELECT
+min salary of products from Dhaka,MIN
+how many records are there,COUNT
+avg gpa of employees,AVG
+sum age of all products,SUM
+sum duration of all students,SUM
+how many records where height is less than 95,COUNT
+mean price of records,AVG
+average income where department equals EEE,AVG
+what is the mean gpa,AVG
+find total weight of records,SUM
+get max income of patients,MAX
+find min population of products,MIN
+find employees from EEE,SELECT
+what is the highest duration,MAX
+how many products with grade equal to inactive,COUNT
+find the total age,SUM
+average score of orders from A,AVG
+overall income of orders,SUM
+what is the minimum revenue,MIN
+total count of orders,COUNT
+retrieve all records,SELECT
+compute average temperature,AVG
+display employees under 96 price,SELECT
+find records aged over 36,SELECT
+sum income of patients from BBA,SUM
+find patients where district is Male,SELECT
+maximum gpa where category is A,MAX
+maximum income,MAX
+sum budget of all orders,SUM
+average quantity for each district,AVG
+minimum revenue,MIN
+overall population of students,SUM
+what is the average height,AVG
+total age where duration is greater than 24,SUM
+find highest salary,MAX
+total number of students,COUNT
+calculate total height,SUM
+what is the maximum gpa,MAX
+how many records with status equal to active,COUNT
+maximum value of distance,MAX
+minimum value of experience,MIN
+minimum weight,MIN
+mean salary of patients,AVG
+total duration of patients,SUM
+what is the mean score,AVG
+min income among employees,MIN
+average experience per department,AVG
+what is the max salary,MAX
+minimum value of score,MIN
+what is the total marks,SUM
+what is the average temperature,AVG
+what is the highest duration,MAX
+greatest rating of orders,MAX
+total orders in Dhaka,COUNT
+show records below 61 height,SELECT
+how many orders where gpa is less than 88,COUNT
+largest temperature in products,MAX
+what is avg rating of orders,AVG
+mean price of records,AVG
+show all products,SELECT
+show records with price more than 21,SELECT
+get max income of students,MAX
+average income of students,AVG
+how many students,COUNT
+sum rating of patients from Male,SUM
+overall duration of patients,SUM
+who has the lowest income,MIN
+max salary among patients,MAX
+how many students from EEE,COUNT
+count products from active,COUNT
+count records where distance is below 100,COUNT
+highest quantity of students,MAX
+count records of records,COUNT
+average salary of students from Male,AVG
+count products with country B,COUNT
+sum income of students from B,SUM
+count employees from active,COUNT
+count employees where gpa is below 59,COUNT
+list all products from A,SELECT
+list patients where score between 56 and 86,SELECT
+what is the min age,MIN
+find max experience of patients,MAX
+min score of patients from active,MIN
+average distance of students where rating is greater than 46,AVG
+list products where region equals Male,SELECT
+how many orders with region equal to B,COUNT
+show employees with grade equal to B,SELECT
+what is the total population,SUM
+sum of salary where category is EEE,SUM
+what is the total income,SUM
+how many students are there,COUNT
+smallest revenue in products,MIN
+how many students have population more than 77,COUNT
+find students aged over 47,SELECT
+total duration from inactive,SUM
+get min salary of employees,MIN
+count records of patients,COUNT
+what is the sum of temperature,SUM
+sum all temperature,SUM
+who has the highest quantity,MAX
+list students where score between 27 and 71,SELECT
+mean duration where region is BBA,AVG
+find patients aged over 26,SELECT
+largest temperature in employees,MAX
+lowest budget value in products,MIN
+find employees aged over 12,SELECT
+get max quantity of employees,MAX
+find lowest income,MIN
+total population by type,SUM
+how many students have population more than 88,COUNT
+get students where rating exceeds 59,SELECT
+sum of temperature,SUM
+find the highest marks,MAX
+get max age of products,MAX
+total count of patients,COUNT
+sum of marks,SUM
+find total height of employees,SUM
+average duration per grade,AVG
+what is the max population,MAX
+show all records,SELECT
+display all students,SELECT
+sum of income,SUM
+count all records,COUNT
+how many records are there,COUNT
+average age for each country,AVG
+what is the minimum distance,MIN
+what is the total quantity,SUM
+show me all patients,SELECT
+show patients with country equal to CSE,SELECT
+mean income of employees,AVG
+smallest marks in records,MIN
+maximum value of experience,MAX
+average salary by gender,AVG
+find total price of records,SUM
+count all records,COUNT
+average height where country equals A,AVG
+largest duration in products,MAX
+show records older than 79,SELECT
+find students where gender is EEE,SELECT
+total score of patients,SUM
+average marks of employees where salary is greater than 49,AVG
+give me all students,SELECT
+min age of patients from CSE,MIN
+what is the lowest budget,MIN
+biggest budget in records,MAX
+find min quantity of students,MIN
+how many employees from BBA,COUNT
+minimum value of income,MIN
+what is the average distance,AVG
+what is the average distance,AVG
+find lowest revenue,MIN
+greatest score of students,MAX
+average rating of products,AVG
+tell me how many patients,COUNT
+min distance among employees,MIN
+what is avg quantity of patients,AVG
+number of records with revenue above 30,COUNT
+average age of records,AVG
+how many orders,COUNT
+what is the min duration,MIN
+how many products are there,COUNT
+find the total salary,SUM
+count records of records,COUNT
+biggest revenue in records,MAX
+show records with distance above 94,SELECT
+total temperature where income is greater than 88,SUM
+display all employees,SELECT
+give me all patients,SELECT
+overall height of orders,SUM
+calculate average age,AVG
+average budget by grade,AVG
+compute average revenue,AVG
+what is the minimum experience,MIN
+bottom rating value,MIN
+sum population of patients from CSE,SUM
+lowest weight value in products,MIN
+who has the highest price,MAX
+count students from BBA,COUNT
+min score among orders,MIN
+get all records,SELECT
+sum income of all employees,SUM
+mean value of income,AVG
+count patients from A,COUNT
+get students where experience exceeds 14,SELECT
+sum age of all patients,SUM
+what is the maximum salary,MAX
+minimum experience,MIN
+tell me how many orders,COUNT
+how many students,COUNT
+give me all orders,SELECT
+find the lowest budget,MIN
+what is the mean population,AVG
+count all patients,COUNT
+number of products with population above 48,COUNT
+calculate average age,AVG
+what is the sum of temperature,SUM
+what is the mean salary,AVG
+max distance of products from CSE,MAX
+average age where branch equals inactive,AVG
+lowest temperature value in students,MIN
+what is the maximum income,MAX
+what is the min weight,MIN
+how many students with branch equal to Male,COUNT
+number of patients older than 25,COUNT
+who has the highest population,MAX
+average weight of patients from Male,AVG
+average distance of products,AVG
+display records under 50 budget,SELECT
+what is the highest marks,MAX
+list all orders,SELECT
+min income of patients from BBA,MIN
+find highest revenue,MAX
+what is avg experience of products,AVG
+total population of students,SUM
+what is the minimum revenue,MIN
+find products from BBA,SELECT
+average income by region,AVG
+avg population of records,AVG
+total number of records,COUNT
+who has the lowest height,MIN
+number of students older than 38,COUNT
+count records of orders,COUNT
+minimum duration,MIN
+find highest gpa,MAX
+what is the sum of rating,SUM
+highest population of orders,MAX
+mean rating of records,AVG
+total employees in Female,COUNT
+largest height in orders,MAX
+min temperature of employees from inactive,MIN
+count orders with gender A,COUNT
+min salary among patients,MIN
+calculate total marks,SUM
+what is avg score of patients,AVG
+who has the lowest distance,MIN
+who has the lowest duration,MIN
+what is the mean price,AVG
+list all patients,SELECT
+how many patients where age is less than 13,COUNT
+find the lowest price,MIN
+lowest income value in employees,MIN
+minimum revenue,MIN
+count records of patients,COUNT
+total quantity of students,SUM
+count orders from Dhaka,COUNT
+how many products from BBA,COUNT
+sum salary of all orders,SUM
+biggest rating in records,MAX
+show students where income is at least 93,SELECT
+average score of orders from Dhaka,AVG
+sum of score where type is Dhaka,SUM
+total score for orders,SUM
+what is the highest marks,MAX
+what is the total duration,SUM
+get min distance of products,MIN
+find the highest duration,MAX
+minimum rating where department is B,MIN
+list patients where region equals inactive,SELECT
+find max temperature of records,MAX
+what is the average age,AVG
+count products where experience is below 39,COUNT
+find the total population,SUM
+smallest duration in records,MIN
+how many orders from EEE,COUNT
+minimum value of marks,MIN
+what is the max income,MAX
+min marks among employees,MIN
+display students under 91 income,SELECT
+minimum duration,MIN
+min quantity of records from EEE,MIN
+what is the highest experience,MAX
+get all orders,SELECT
+count all records,COUNT
+sum rating of records from Dhaka,SUM
+calculate average temperature,AVG
+greatest quantity of patients,MAX
+count patients with district CSE,COUNT
+total number of patients,COUNT
+minimum revenue where grade is CSE,MIN
+count employees from Female,COUNT
+what is the max revenue,MAX
+summation of score,SUM
+min income of students from B,MIN
+sum all salary,SUM
+sum of experience,SUM
+compute average temperature,AVG
+mean value of income,AVG
+find products from A,SELECT
+find the mean score of all students,AVG
+smallest age in employees,MIN
+sum temperature of orders from CSE,SUM
+how many orders from A,COUNT
+give me all products,SELECT
+average quantity of employees,AVG
+how many orders have age more than 69,COUNT
+sum of salary,SUM
+what is the sum of quantity,SUM
+fetch records where experience is higher than 48,SELECT
+total weight where gpa is greater than 28,SUM
+max experience of products from CSE,MAX
+find the mean temperature of all patients,AVG
+highest income of orders,MAX
+mean value of quantity,AVG
+biggest duration in records,MAX
+find average population of employees,AVG
+find the highest temperature,MAX
+what is the mean score,AVG
+find max salary of employees,MAX
+how many employees are there,COUNT
+summation of marks,SUM
+sum of experience,SUM
+sum of height,SUM
+how many records have budget more than 51,COUNT
+average income of patients,AVG
+display all records,SELECT
+find min temperature of orders,MIN
+bottom duration value,MIN
+how many students are there,COUNT
+smallest height in records,MIN
+display orders where income is less than 89,SELECT
+minimum value of height,MIN
+how many students from inactive,COUNT
+sum of duration,SUM
+what is the total duration,SUM
+get all products,SELECT
+total experience from BBA,SUM
+average distance of students where population is greater than 30,AVG
+greatest height of employees,MAX
+sum all income,SUM
+highest rating value in employees,MAX
+what is the lowest revenue,MIN
+get students where rating exceeds 99,SELECT
+sum price of students from A,SUM
+show employees with budget above 96,SELECT
+find average age of orders,AVG
+give me all products,SELECT
+smallest experience in records,MIN
+how many patients have quantity more than 47,COUNT
+fetch employees where population is higher than 90,SELECT
+least weight of orders,MIN
+mean value of revenue,AVG
+total rating by type,SUM
+how many patients where quantity is less than 9,COUNT
+get max quantity of employees,MAX
+find highest budget,MAX
+how many patients where distance is less than 78,COUNT
+find max salary of students,MAX
+find the lowest score,MIN
+tell me how many patients,COUNT
+find total distance of records,SUM
+biggest experience in records,MAX
+find min salary of orders,MIN
+what is the average salary,AVG
+what is the maximum price,MAX
+sum all rating,SUM
+count all records,COUNT
+smallest population in students,MIN
+average population by department,AVG
+what is the average revenue,AVG
+average quantity by type,AVG
+min budget among students,MIN
+find highest population,MAX
+what is avg rating of orders,AVG
+count students where region is A,COUNT
+total duration of patients,SUM
+who has the lowest height,MIN
+count employees from EEE,COUNT
+overall weight of patients,SUM
+get max experience of patients,MAX
+total records in active,COUNT
+mean marks of employees,AVG
+total duration by category,SUM
+count patients where duration greater than 41,COUNT
+minimum score,MIN
+find the lowest distance,MIN
+list employees where type equals EEE,SELECT
+find lowest weight,MIN
+what is the sum of marks,SUM
+count employees where level is active,COUNT
+what is avg distance of orders,AVG
+retrieve all products,SELECT
+top weight value,MAX
+maximum price where country is A,MAX
+find students from B,SELECT
+bottom salary value,MIN
+mean value of temperature,AVG
+count orders where weight greater than 83,COUNT
+show employees where distance is at least 87,SELECT
+combined price of products,SUM
+who has the highest salary,MAX
+display all employees,SELECT
+average income of employees,AVG
+lowest age value in employees,MIN
+tell me how many students,COUNT
+what is the minimum quantity,MIN
+biggest income in records,MAX
+maximum value of budget,MAX
+find patients aged over 33,SELECT
+largest experience in employees,MAX
+show products where duration is Male,SELECT
+average revenue of patients,AVG
+least income of students,MIN
+who has the highest population,MAX
+retrieve all patients,SELECT
+show patients older than 36,SELECT
+show patients below 12 income,SELECT
+total students in Female,COUNT
+sum distance of all records,SUM
+show students with income above 68,SELECT
+how many products are there,COUNT
+find min population of records,MIN
+least height of products,MIN
+average age for each region,AVG
+display all products,SELECT
+count patients where distance is below 99,COUNT
+count records of students,COUNT
+average score per branch,AVG
+what is the max distance,MAX
+lowest duration of records,MIN
+what is the lowest score,MIN
+total marks of employees,SUM
+show orders with gender Female,SELECT
+list employees where status equals Male,SELECT
+show students below 86 rating,SELECT
+what is the lowest weight,MIN
+how many patients are there,COUNT
+average distance of patients where distance is greater than 80,AVG
+total score by department,SUM
+total count of employees,COUNT
+show employees older than 5,SELECT
+average budget by city,AVG
+add up all distance,SUM
+total number of students,COUNT
+bottom rating value,MIN
+what is the total temperature,SUM
+least duration of orders,MIN
+fetch patients where distance is higher than 32,SELECT
+what is the mean temperature,AVG
+what is the highest duration,MAX
+who has the highest gpa,MAX
+biggest population in records,MAX
+mean value of price,AVG
+count products with category Dhaka,COUNT
+show me all students,SELECT
+mean value of budget,AVG
+total number of patients,COUNT
+maximum weight where branch is CSE,MAX
+total budget from A,SUM
+summation of salary,SUM
+list patients where price between 31 and 90,SELECT
+overall duration of orders,SUM
+count students where quantity is below 37,COUNT
+total score of employees,SUM
+count patients with gender CSE,COUNT
+show employees with temperature above 12,SELECT
+smallest marks in records,MIN
+how many records have temperature more than 75,COUNT
+highest population of orders,MAX
+retrieve all orders,SELECT
+min age among products,MIN
+highest age of products,MAX
+smallest marks in records,MIN
+display orders under 83 salary,SELECT
+find the total temperature,SUM
+count records of patients,COUNT
+show students where score is at least 63,SELECT
+average budget for each grade,AVG
+who has the highest income,MAX
+get all students,SELECT
+average rating where district equals Dhaka,AVG
+compute average weight,AVG
+mean income of products,AVG
+who has the lowest distance,MIN
+top population value,MAX
+get min price of employees,MIN
+find the lowest budget,MIN
+get all records,SELECT
+average marks by region,AVG
+mean price of products,AVG
+biggest distance in records,MAX
+average duration of patients from BBA,AVG
+find min weight of products,MIN
+minimum experience where grade is inactive,MIN
+number of students older than 72,COUNT
+how many records with department equal to Male,COUNT
+list products where level equals A,SELECT
+show employees below 53 budget,SELECT
+tell me how many employees,COUNT
+minimum value of weight,MIN
+what is the sum of price,SUM
+calculate average revenue,AVG
+average population per status,AVG
+total weight where experience is greater than 58,SUM
+what is avg experience of orders,AVG
+what is the highest salary,MAX
+smallest distance in records,MIN
+find average age of products,AVG
+what is the minimum gpa,MIN
+who has the highest quantity,MAX
+average salary per gender,AVG
+what is avg population of employees,AVG
+show all orders,SELECT
+number of employees with height above 34,COUNT
+average budget by grade,AVG
+total experience from EEE,SUM
+compute average population,AVG
+average gpa by grade,AVG
+minimum budget,MIN
+display employees under 79 weight,SELECT
+bottom salary value,MIN
+list all products,SELECT
+avg marks of students,AVG
+find min duration of patients,MIN
+list all records from Dhaka,SELECT
+find total score of students,SUM
+total marks for patients,SUM
+maximum rating,MAX
+combined budget of products,SUM
+show records where distance is active,SELECT
+minimum value of rating,MIN
+show records with distance above 94,SELECT
+who has the lowest revenue,MIN
+highest experience of records,MAX
+list all employees,SELECT
+min height among records,MIN
+sum experience of all records,SUM
+min salary among employees,MIN
+find min experience of employees,MIN
+average budget by level,AVG
+mean population of students,AVG
+count employees from Dhaka,COUNT
+mean revenue of employees,AVG
+find the total gpa,SUM
+average experience where category equals active,AVG
+calculate total marks,SUM
+find lowest gpa,MIN
+count employees from BBA,COUNT
+how many students,COUNT
+total number of students,COUNT
+overall weight of patients,SUM
+list employees where duration between 79 and 50,SELECT
+maximum quantity,MAX
+mean weight where city is Female,AVG
+count all records,COUNT
+count records of orders,COUNT
+total employees in B,COUNT
+sum temperature of all records,SUM
+min income among products,MIN
+give me all employees,SELECT
+combined score of patients,SUM
+who has the lowest quantity,MIN
+find the highest price,MAX
+minimum marks,MIN
+what is the sum of salary,SUM
+display all patients,SELECT
+total income where duration is greater than 18,SUM
+calculate total weight,SUM
+show orders where price is at least 41,SELECT
+what is the lowest population,MIN
+find total revenue of orders,SUM
+greatest duration of employees,MAX
+list patients where gpa between 93 and 72,SELECT
+maximum score where country is Dhaka,MAX
+find the mean distance of all employees,AVG
+find the lowest budget,MIN
+what is the average distance,AVG
+max quantity of products from BBA,MAX
+what is the minimum revenue,MIN
+total duration by branch,SUM
+avg age of employees,AVG
+what is avg income of records,AVG
+average quantity by gender,AVG
+list products where weight between 35 and 23,SELECT
+what is the sum of height,SUM
+show records with duration more than 94,SELECT
+average marks by level,AVG
+count all students,COUNT
+total products in active,COUNT
+smallest income in records,MIN
+what is the min temperature,MIN
+minimum rating,MIN
+average quantity by grade,AVG
+combined duration of products,SUM
+mean quantity where district is Female,AVG
+largest salary in students,MAX
+find the total price,SUM
+greatest weight of students,MAX
+tell me how many patients,COUNT
+smallest income in orders,MIN
+sum budget of records from B,SUM
+min duration among patients,MIN
+lowest experience of orders,MIN
+count all records,COUNT
+retrieve all employees,SELECT
+list all employees from CSE,SELECT
+get all products,SELECT
+show patients with region CSE,SELECT
+find the mean distance of all records,AVG
+total experience where revenue is greater than 63,SUM
+number of records older than 78,COUNT
+total budget where age is greater than 12,SUM
+count all orders,COUNT
+average height of records where price is greater than 61,AVG
+get min income of patients,MIN
+how many employees from Male,COUNT
+find lowest revenue,MIN
+how many employees,COUNT
+total rating by status,SUM
+sum of revenue where gender is EEE,SUM
+show patients with region equal to EEE,SELECT
+find total budget of patients,SUM
+max budget among products,MAX
+mean income where department is active,AVG
+combined population of employees,SUM
+average salary of orders,AVG
+smallest temperature in records,MIN
+get max population of students,MAX
+mean value of budget,AVG
+how many records have height more than 60,COUNT
+combined height of employees,SUM
+min revenue among orders,MIN
+minimum price where region is active,MIN
+total age where experience is greater than 33,SUM
+find the total revenue,SUM
+max temperature of records from Male,MAX
+lowest duration of orders,MIN
+count all records,COUNT
+retrieve all products,SELECT
+count patients from active,COUNT
+find the highest revenue,MAX
+list records where duration between 38 and 3,SELECT
+average quantity by level,AVG
+count employees with country Dhaka,COUNT
+compute average budget,AVG
+highest weight value in students,MAX
+show me all records,SELECT
+what is the maximum gpa,MAX
+find records from CSE,SELECT
+what is avg salary of patients,AVG
+find patients where category is B,SELECT
+average gpa where type equals Dhaka,AVG
+get min population of records,MIN
+calculate average experience,AVG
+minimum distance,MIN
+show orders with distance above 77,SELECT
+what is the total income,SUM
+show me all records,SELECT
+overall income of students,SUM
+average marks for each status,AVG
+maximum value of revenue,MAX
+who has the highest experience,MAX
+calculate average temperature,AVG
+find the total marks,SUM
+what is the sum of rating,SUM
+number of records older than 5,COUNT
+highest age value in records,MAX
+biggest height in records,MAX
+how many products where gpa is less than 64,COUNT
+mean value of temperature,AVG
+average gpa by level,AVG
+what is the max quantity,MAX
+fetch patients where age is higher than 75,SELECT
+add up all weight,SUM
+what is the lowest distance,MIN
+show employees with status A,SELECT
+calculate average experience,AVG
+what is the maximum quantity,MAX
+minimum value of gpa,MIN
+average experience for each region,AVG
+display students under 17 experience,SELECT
+what is the max price,MAX
+mean revenue where category is BBA,AVG
+find average marks of students,AVG
+greatest duration of employees,MAX
+maximum quantity,MAX
+sum all gpa,SUM
+average weight of products from inactive,AVG
+show me all patients,SELECT
+how many patients have marks more than 19,COUNT
+find total score of records,SUM
+find lowest weight,MIN
+average distance of students from Dhaka,AVG
+highest height value in students,MAX
+what is the sum of population,SUM
+find average height of students,AVG
+count records of orders,COUNT
+show patients with status equal to BBA,SELECT
+top rating value,MAX
+average gpa of patients from Female,AVG
+what is the min temperature,MIN
+mean value of temperature,AVG
+compute average budget,AVG
+highest score of employees,MAX
+what is the max population,MAX
+show orders where age is at least 88,SELECT
+lowest population value in orders,MIN
+what is avg weight of employees,AVG
+average gpa by city,AVG
+highest distance value in orders,MAX
+biggest revenue in records,MAX
+lowest salary of patients,MIN
+sum all distance,SUM
+max age among employees,MAX
+average rating by district,AVG
+sum marks of records from EEE,SUM
+get max experience of products,MAX
+get min distance of records,MIN
+minimum height,MIN
+biggest gpa in records,MAX
+overall temperature of products,SUM
+total count of records,COUNT
+count records of students,COUNT
+get max distance of records,MAX
+how many orders from inactive,COUNT
+show patients where distance is Dhaka,SELECT
+min budget among employees,MIN
+what is avg height of orders,AVG
+what is the mean gpa,AVG
+minimum population,MIN
+how many students where quantity is less than 46,COUNT
+what is the sum of salary,SUM
+compute average rating,AVG
+find total temperature of students,SUM
+add up all height,SUM
+what is the lowest quantity,MIN
+who has the highest quantity,MAX
+what is the sum of experience,SUM
+who has the lowest experience,MIN
+maximum value of score,MAX
+calculate total rating,SUM
+give me all products,SELECT
+display records where population is less than 49,SELECT
+minimum distance,MIN
+summation of experience,SUM
+find the lowest marks,MIN
+highest salary of employees,MAX
+find highest budget,MAX
+min temperature of patients from Female,MIN
+who has the lowest experience,MIN
+show me all patients,SELECT
+total revenue where salary is greater than 42,SUM
+count students with category A,COUNT
+total marks for records,SUM
+summation of income,SUM
+find min height of records,MIN
+get all employees,SELECT
+greatest income of orders,MAX
+highest temperature value in products,MAX
+sum weight of patients from Female,SUM
+count orders from BBA,COUNT
+overall distance of orders,SUM
+find the lowest duration,MIN
+what is the minimum income,MIN
+how many employees with region equal to B,COUNT
+count records of records,COUNT
+minimum value of rating,MIN
+who has the highest score,MAX
+highest experience value in products,MAX
+number of orders with price above 99,COUNT
+find lowest rating,MIN
+maximum value of budget,MAX
+find the mean weight of all products,AVG
+count all records,COUNT
+find the lowest score,MIN
+total temperature of employees,SUM
+what is the lowest revenue,MIN
+maximum population,MAX
+find orders from CSE,SELECT
+total students in Male,COUNT
+mean budget of students,AVG
+largest salary in students,MAX
+total population of students,SUM
+total marks by status,SUM
+bottom duration value,MIN
+how many patients from BBA,COUNT
+how many products where marks is less than 62,COUNT
+combined temperature of records,SUM
+count all records,COUNT
+maximum age where level is CSE,MAX
+show records with revenue more than 54,SELECT
+number of employees older than 23,COUNT
+min price of students from BBA,MIN
+biggest score in records,MAX
+average distance per district,AVG
+what is the min age,MIN
+maximum rating where country is inactive,MAX
+total salary by type,SUM
+find max salary of records,MAX
+list products where experience between 20 and 87,SELECT
+calculate total income,SUM
+calculate average duration,AVG
+bottom revenue value,MIN
+maximum value of age,MAX
+get all records,SELECT
+sum height of employees from inactive,SUM
+list orders where type equals BBA,SELECT
+least quantity of records,MIN
+calculate average rating,AVG
+find the highest score,MAX
+display all products,SELECT
+top budget value,MAX
+total quantity where height is greater than 65,SUM
+show orders where gpa is at least 78,SELECT
+show patients with region equal to A,SELECT
+show orders with weight above 35,SELECT
+find the total population,SUM
+show students where gpa is at least 65,SELECT
+how many products with city equal to BBA,COUNT
+what is the lowest budget,MIN
+what is the mean population,AVG
+smallest price in students,MIN
+count employees where height greater than 37,COUNT
+number of students older than 42,COUNT
+average gpa for each level,AVG
+maximum value of duration,MAX
+get all records,SELECT
+find the total gpa,SUM
+max budget of employees from Dhaka,MAX
+find the highest salary,MAX
+how many products have salary more than 93,COUNT
+average population of products,AVG
+give me all students,SELECT
+display patients under 89 duration,SELECT
+show orders where gpa is CSE,SELECT
+get all employees,SELECT
+find orders where grade is BBA,SELECT
+biggest revenue in records,MAX
+count all students,COUNT
+largest population in patients,MAX
+lowest age of orders,MIN
+list records where quantity between 36 and 98,SELECT
+how many products where rating is less than 75,COUNT
+total count of employees,COUNT
+count records of products,COUNT
+minimum weight where level is inactive,MIN
+minimum gpa,MIN
+what is the total gpa,SUM
+average revenue of records from EEE,AVG
+overall budget of students,SUM
+calculate total duration,SUM
+show patients with department equal to Female,SELECT
+avg score of records,AVG
+find highest rating,MAX
+show students with type equal to BBA,SELECT
+find total salary of students,SUM
+total experience by grade,SUM
+show products with level BBA,SELECT
+find max rating of employees,MAX
+avg salary of students,AVG
+show records where quantity is inactive,SELECT
+smallest height in employees,MIN
+maximum weight,MAX
+average population of records,AVG
+maximum experience,MAX
+minimum weight where level is Male,MIN
+minimum value of revenue,MIN
+what is the minimum weight,MIN
+what is the sum of duration,SUM
+minimum distance where city is B,MIN
+what is the min marks,MIN
+highest income value in orders,MAX
+min budget of patients from Female,MIN
+how many orders have age more than 37,COUNT
+smallest gpa in patients,MIN
+largest quantity in students,MAX
+largest gpa in students,MAX
+how many students,COUNT
+lowest budget value in employees,MIN
+avg marks of records,AVG
+count records of students,COUNT
+count employees from CSE,COUNT
+find lowest temperature,MIN
+average distance of records from BBA,AVG
+show employees below 29 weight,SELECT
+count students where branch is CSE,COUNT
+find the mean price of all products,AVG
+find the highest height,MAX
+sum temperature of all records,SUM
+maximum value of age,MAX
+find the highest income,MAX
+find the highest duration,MAX
+lowest experience value in orders,MIN
+show all records,SELECT
+display orders under 85 marks,SELECT
+total budget where gpa is greater than 28,SUM
+summation of score,SUM
+find highest marks,MAX
+find average distance of employees,AVG
+get max population of products,MAX
+show students where temperature is at least 46,SELECT
+minimum distance where status is Male,MIN
+fetch products where gpa is higher than 34,SELECT
+least age of orders,MIN
+average duration of patients,AVG
+greatest distance of patients,MAX
+show patients with marks above 31,SELECT
+how many products have salary more than 69,COUNT
+total number of employees,COUNT
+add up all budget,SUM
+count records of products,COUNT
+display all orders,SELECT
+find max duration of students,MAX
+least salary of products,MIN
+biggest rating in records,MAX
+find the total population,SUM
+total count of students,COUNT
+show students below 1 population,SELECT
+total salary where weight is greater than 3,SUM
+sum revenue of students from Female,SUM
+highest quantity of employees,MAX
+average marks where level equals Female,AVG
+what is the average height,AVG
+average revenue per city,AVG
+how many patients from Female,COUNT
+how many records are there,COUNT
+display all employees,SELECT
+average population by department,AVG
+maximum value of experience,MAX
+sum all salary,SUM
+average age of employees,AVG
+show records with region equal to CSE,SELECT
+max weight among products,MAX
+find highest marks,MAX
+highest budget value in records,MAX
+show records where revenue is B,SELECT
+total number of records,COUNT
+least income of orders,MIN
+top marks value,MAX
+avg salary of employees,AVG
+show orders older than 75,SELECT
+total count of employees,COUNT
+what is the sum of price,SUM
+average weight for each category,AVG
+average price by gender,AVG
+smallest population in products,MIN
+how many products with branch equal to Male,COUNT
+find min temperature of employees,MIN
+average score of patients,AVG
+total revenue from A,SUM
+what is the sum of revenue,SUM
+how many orders,COUNT
+sum all price,SUM
+smallest quantity in records,MIN
+least budget of patients,MIN
+what is the average duration,AVG
+overall rating of records,SUM
+total number of records,COUNT
+add up all height,SUM
+tell me how many records,COUNT
+how many patients from inactive,COUNT
+tell me how many orders,COUNT
+total marks for products,SUM
+count employees where budget greater than 30,COUNT
+count patients where gpa is below 63,COUNT
+highest price value in patients,MAX
+smallest duration in students,MIN
+list all orders from active,SELECT
+show products with country equal to CSE,SELECT
+what is the maximum gpa,MAX
+max population among students,MAX
+minimum value of age,MIN
+find highest gpa,MAX
+find max distance of employees,MAX
+average salary where branch equals Female,AVG
+list all students,SELECT
+find the lowest experience,MIN
+list all orders,SELECT
+what is the mean quantity,AVG
+what is the minimum quantity,MIN
+lowest marks value in patients,MIN
+smallest temperature in students,MIN
+greatest temperature of students,MAX
+what is the minimum population,MIN
+combined population of records,SUM
+biggest salary in records,MAX
+what is avg rating of records,AVG
+what is the sum of price,SUM
+max gpa among records,MAX
+count employees from Female,COUNT
+avg temperature of students,AVG
+what is the lowest temperature,MIN
+what is the average gpa,AVG
+fetch employees where price is higher than 16,SELECT
+smallest price in products,MIN
+show records where population is inactive,SELECT
+sum gpa of orders from BBA,SUM
+average temperature of patients from CSE,AVG
+what is the maximum price,MAX
+mean distance of products,AVG
+count all students,COUNT
+how many records have weight more than 86,COUNT
+number of records with budget above 90,COUNT
+total products in EEE,COUNT
+find average rating of orders,AVG
+what is the average budget,AVG
+display all products,SELECT
+compute average score,AVG
+find the total population,SUM
+number of records with marks above 13,COUNT
+add up all weight,SUM
+mean value of marks,AVG
+what is the minimum budget,MIN
+least price of records,MIN
+mean population of products,AVG
+what is avg distance of records,AVG
+find the lowest rating,MIN
+count students where weight is below 43,COUNT
+highest rating of patients,MAX
+count orders where salary greater than 39,COUNT
+tell me how many records,COUNT
+give me all patients,SELECT
+max age among students,MAX
+find the total population,SUM
+find lowest rating,MIN
+show orders where age is EEE,SELECT
+minimum value of rating,MIN
+summation of temperature,SUM
+sum of age where country is B,SUM
+list all products from B,SELECT
+smallest gpa in records,MIN
+sum quantity of all employees,SUM
+greatest income of products,MAX
+total experience from CSE,SUM
+max weight among patients,MAX
+smallest distance in records,MIN
+calculate average income,AVG
+mean value of salary,AVG
+total revenue where population is greater than 97,SUM
+average experience per city,AVG
+average revenue for each region,AVG
+show records where income is Female,SELECT
+total score from A,SUM
+get products where rating exceeds 3,SELECT
+show students where marks is Dhaka,SELECT
+min gpa of orders from CSE,MIN
+find lowest budget,MIN
+total number of patients,COUNT
+minimum marks where city is EEE,MIN
+find average revenue of patients,AVG
+average price of students,AVG
+average quantity per gender,AVG
+mean income where type is Dhaka,AVG
+highest population of employees,MAX
+count records of students,COUNT
+show all students,SELECT
+find the lowest price,MIN
+show patients where population is BBA,SELECT
+find the mean gpa of all orders,AVG
+average duration by country,AVG
+compute average budget,AVG
+highest marks value in products,MAX
+min revenue among records,MIN
+largest score in patients,MAX
+highest revenue value in patients,MAX
+find the highest experience,MAX
+how many records where height is less than 27,COUNT
+maximum height where status is A,MAX
+average gpa by branch,AVG
+what is the average income,AVG
+show records where temperature is CSE,SELECT
+biggest temperature in records,MAX
+show products where duration is at least 75,SELECT
+total number of employees,COUNT
+get all records,SELECT
+find the mean weight of all employees,AVG
+average income where department equals Female,AVG
+what is the mean age,AVG
+display all patients,SELECT
+avg duration of orders,AVG
+min temperature among records,MIN
+list all products,SELECT
+show students with region B,SELECT
+count patients with gender BBA,COUNT
+find the highest score,MAX
+count employees where population greater than 34,COUNT
+greatest income of records,MAX
+count records of patients,COUNT
+add up all distance,SUM
+sum of gpa where gender is A,SUM
+summation of distance,SUM
+highest gpa of students,MAX
+average gpa of records from inactive,AVG
+display patients where income is less than 15,SELECT
+what is avg price of products,AVG
+greatest price of patients,MAX
+what is the lowest gpa,MIN
+display all patients,SELECT
+number of patients older than 33,COUNT
+show patients with country equal to EEE,SELECT
+what is the minimum duration,MIN
+find lowest revenue,MIN
+total distance from inactive,SUM
+what is the average budget,AVG
+minimum revenue,MIN
+sum marks of products from Dhaka,SUM
+sum of quantity where city is BBA,SUM
+count patients where grade is inactive,COUNT
+what is the total height,SUM
+list all records,SELECT
+biggest budget in records,MAX
+top age value,MAX
+minimum value of budget,MIN
+min score among products,MIN
+maximum value of rating,MAX
+minimum quantity where status is active,MIN
+mean value of temperature,AVG
+find all students where rating is greater than 52,SELECT
+count records of employees,COUNT
+minimum revenue where gender is inactive,MIN
+total duration by grade,SUM
+count records from Female,COUNT
+sum of experience,SUM
+total population of employees,SUM
+compute average quantity,AVG
+maximum rating where country is Dhaka,MAX
+highest population value in records,MAX
+find the mean experience of all students,AVG
+mean price of orders,AVG
+display all orders,SELECT
+greatest age of products,MAX
+show products with duration above 96,SELECT
+total rating by district,SUM
+how many orders where salary is less than 88,COUNT
+calculate total budget,SUM
+find the total rating,SUM
+what is the minimum duration,MIN
+show me all products,SELECT
+count employees where score is below 95,COUNT
+top population value,MAX
+how many orders,COUNT
+highest revenue value in records,MAX
+how many products have gpa more than 98,COUNT
+total patients in BBA,COUNT
+what is the average marks,AVG
+get max gpa of products,MAX
+max rating of students from BBA,MAX
+count students where region is active,COUNT
+who has the lowest population,MIN
+count employees where district is B,COUNT
+how many employees from CSE,COUNT
+find the total salary,SUM
+total quantity where income is greater than 34,SUM
+find the total height,SUM
+what is the average experience,AVG
+avg gpa of products,AVG
+smallest revenue in patients,MIN
+sum height of records from inactive,SUM
+find the highest gpa,MAX
+mean price where category is CSE,AVG
+who has the lowest gpa,MIN
+minimum value of temperature,MIN
+what is the lowest score,MIN
+get max height of products,MAX
+top temperature value,MAX
+find the mean weight of all records,AVG
+smallest height in records,MIN
+total quantity from Male,SUM
+what is the min revenue,MIN
+find the highest salary,MAX
+least score of products,MIN
+number of students with weight above 43,COUNT
+max weight among orders,MAX
+how many products,COUNT
+max duration of students from Male,MAX
+sum of temperature where category is Male,SUM
+list employees where income between 43 and 68,SELECT
+find all students where quantity is greater than 37,SELECT
+count orders with gender active,COUNT
+minimum age,MIN
+list employees where score between 26 and 14,SELECT
+total duration of employees,SUM
+sum distance of products from inactive,SUM
+who has the lowest salary,MIN
+average revenue of orders where population is greater than 99,AVG
+show patients with department equal to EEE,SELECT
+mean value of population,AVG
+count all products,COUNT
+summation of distance,SUM
+minimum value of income,MIN
+how many products from EEE,COUNT
+display orders where rating is less than 51,SELECT
+total number of patients,COUNT
+fetch records where salary is higher than 49,SELECT
+find average weight of products,AVG
+total number of records,COUNT
+find the total duration,SUM
+sum of salary where level is CSE,SUM
+find min income of students,MIN
+bottom price value,MIN
+number of students older than 46,COUNT
+calculate average income,AVG
+mean distance where level is EEE,AVG
+total height for orders,SUM
+get min population of employees,MIN
+sum score of all records,SUM
+get all patients,SELECT
+avg age of employees,AVG
+show patients where income is at least 18,SELECT
+find the mean temperature of all records,AVG
+total number of students,COUNT
+find the mean income of all records,AVG
+find average height of employees,AVG
+what is the average price,AVG
+total price where score is greater than 88,SUM
+count patients where country is inactive,COUNT
+retrieve all records,SELECT
+get all orders,SELECT
+count products where height is below 78,COUNT
+how many employees from CSE,COUNT
+total number of orders,COUNT
+what is avg rating of students,AVG
+count orders where branch is active,COUNT
+average price for each grade,AVG
+mean gpa where region is Male,AVG
+get max gpa of employees,MAX
+find patients aged over 93,SELECT
+minimum gpa,MIN
+maximum value of experience,MAX
+compute average income,AVG
+calculate total distance,SUM
+count patients where rating greater than 5,COUNT
+total products in BBA,COUNT
+show all orders,SELECT
+how many records from Dhaka,COUNT
+maximum marks,MAX
+average income for each grade,AVG
+biggest gpa in records,MAX
+display patients under 66 distance,SELECT
+total orders in BBA,COUNT
+maximum value of distance,MAX
+show records older than 55,SELECT
+greatest weight of students,MAX
+count orders where status is EEE,COUNT
+count products where temperature greater than 22,COUNT
+least price of students,MIN
+fetch records where weight is higher than 27,SELECT
+what is the max height,MAX
+who has the highest age,MAX
+add up all age,SUM
+maximum weight where country is B,MAX
+add up all weight,SUM
+show students where score is at least 45,SELECT
+give me all patients,SELECT
+greatest rating of students,MAX
+find highest height,MAX
+total count of orders,COUNT
+find highest population,MAX
+count records of students,COUNT
+count records where price greater than 54,COUNT
+mean weight of orders,AVG
+number of students older than 36,COUNT
+get max distance of students,MAX
+how many orders have population more than 44,COUNT
+show records with weight more than 76,SELECT
+what is the average experience,AVG
+count records of records,COUNT
+min marks among students,MIN
+maximum population where category is EEE,MAX
+show products older than 21,SELECT
+total number of employees,COUNT
+total budget where salary is greater than 77,SUM
+calculate average rating,AVG
+bottom duration value,MIN
+lowest temperature of patients,MIN
+total number of employees,COUNT
+maximum value of experience,MAX
+maximum distance,MAX
+highest score of orders,MAX
+count records of patients,COUNT
+list all orders from active,SELECT
+smallest score in records,MIN
+find the lowest price,MIN
+summation of weight,SUM
+calculate total salary,SUM
+maximum value of rating,MAX
+mean value of age,AVG
+count students with branch BBA,COUNT
+overall income of records,SUM
+total score for records,SUM
+what is the max budget,MAX
+how many records from inactive,COUNT
+list products where level equals EEE,SELECT
+find the lowest quantity,MIN
+max marks among patients,MAX
+find the total quantity,SUM
+number of products older than 56,COUNT
+maximum price where district is inactive,MAX
+max budget among employees,MAX
+count orders with status Female,COUNT
+show patients older than 72,SELECT
+max duration of employees from EEE,MAX
+least population of products,MIN
+number of employees older than 9,COUNT
+highest budget of patients,MAX
+number of records older than 13,COUNT
+list employees where level equals inactive,SELECT
+add up all duration,SUM
+highest temperature value in records,MAX
+sum of experience,SUM
+what is the highest weight,MAX
+compute average temperature,AVG
+bottom marks value,MIN
+number of employees older than 52,COUNT
+find max temperature of records,MAX
+calculate total marks,SUM
+how many students where revenue is less than 37,COUNT
+min gpa among orders,MIN
+average population of orders,AVG
+get max gpa of patients,MAX
+list all students,SELECT
+show employees where duration is EEE,SELECT
+count products where temperature greater than 16,COUNT
+greatest population of students,MAX
+overall salary of records,SUM
+find records where grade is inactive,SELECT
+sum gpa of orders from BBA,SUM
+greatest score of patients,MAX
+highest salary value in employees,MAX
+minimum value of age,MIN
+compute average quantity,AVG
+total salary where experience is greater than 93,SUM
+count orders with category active,COUNT
+what is the maximum quantity,MAX
+total number of orders,COUNT
+lowest age of employees,MIN
+minimum height where category is active,MIN
+what is the min rating,MIN
+top price value,MAX
+calculate average score,AVG
+get products where gpa exceeds 31,SELECT
+count students with city A,COUNT
+compute average quantity,AVG
+list employees where gender equals Male,SELECT
+compute average population,AVG
+what is the sum of marks,SUM
+count all records,COUNT
+average distance where type equals BBA,AVG

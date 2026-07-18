@@ -5,7 +5,7 @@ A lightweight Python-based system that converts plain English questions into SQL
 **Course:** CSE366 Artificial Intelligence  
 **Section:** 5  
 **Group: 02**
-**Milestone:02**
+**Milestone:2**
 
 ---
 

@@ -1,12 +1,13 @@
-# nl2sql-366 — Natural Language to SQL
+# 🚀 nl2sql-366 — Natural Language to SQL
 
-A lightweight Python-based system that converts plain English questions into SQL queries and returns database results — without manual SQL writing.
+A lightweight AI-powered Python application that converts plain English questions into SQL queries and executes them on a database, allowing users to retrieve information without writing SQL manually.
 
-**Course:** CSE366 Artificial Intelligence  
-**Section:** 5  
-**Group: 02**
-**Milestone:2**
+## 📚 Course Information
 
+- **Course:** CSE366 – Artificial Intelligence
+- **Section:** 05
+- **Group:** 02
+- **Milestone:** 02
 ---
 
 ## 🚀 What It Does

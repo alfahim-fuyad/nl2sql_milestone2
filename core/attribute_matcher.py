@@ -1,44 +1,82 @@
+# core/attribute_matcher.py
+
+import os
 import re
 import json
-import os
-from rapidfuzz import fuzz, process
+from rapidfuzz import process, fuzz
 
 
-def _load_json(path, default):
+def load_synonyms(path="knowledge/synonyms.json"):
     if not os.path.exists(path):
-        return default
+        return {}
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
-    if isinstance(data, dict):
-        data.pop("_comment", None)
+    data.pop("_comment", None)
     return data
+
+
+def load_stopwords(path="knowledge/stopwords.json"):
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _strip_symbols(text):
+    text = re.sub(r"\([^)]*\)", " ", text)
+    text = re.sub(r"[^a-z0-9\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
 
 
 def _normalize(text):
     text = text.lower().replace("_", " ")
-    text = re.sub(r"\([^)]*\)", " ", text)
-    text = re.sub(r"[^a-z0-9\s]", " ", text)
-    return re.sub(r"\s+", " ", text).strip()
+    return _strip_symbols(text)
+
+
+def _build_lookup(schema):
+    lookup = {}
+    for col in schema.keys():
+        lookup[col.lower()] = col
+        normalized = _normalize(col)
+        if normalized not in lookup:
+            lookup[normalized] = col
+    return lookup
 
 
 def match_column(word, schema, synonyms_path="knowledge/synonyms.json", threshold=70):
     if not word or not schema:
         return None
-    synonyms = _load_json(synonyms_path, {})
+
+    synonyms = load_synonyms(synonyms_path)
     word_norm = _normalize(word)
-    lookup = {_normalize(col): col for col in schema}
-    lookup.update({col.lower(): col for col in schema})
-    cols = list(lookup.keys())
 
-    result = process.extractOne(word_norm, cols, scorer=fuzz.token_sort_ratio)
+    lower_to_original = _build_lookup(schema)
+    lower_columns = list(lower_to_original.keys())
+
+    result = process.extractOne(
+        word_norm, lower_columns, scorer=fuzz.token_sort_ratio
+    )
     if result and result[1] >= threshold:
-        return lookup[result[0]]
+        return lower_to_original[result[0]]
 
-    for key in (word_norm, word.lower().strip()):
-        if key in synonyms:
-            result = process.extractOne(_normalize(synonyms[key]), cols, scorer=fuzz.token_sort_ratio)
-            if result and result[1] >= threshold:
-                return lookup[result[0]]
+    if word_norm in synonyms:
+        synonym_norm = _normalize(synonyms[word_norm])
+        result = process.extractOne(
+            synonym_norm, lower_columns, scorer=fuzz.token_sort_ratio
+        )
+        if result and result[1] >= threshold:
+            return lower_to_original[result[0]]
+
+    word_lower = word.lower().strip()
+    if word_lower in synonyms:
+        synonym_norm = _normalize(synonyms[word_lower])
+        result = process.extractOne(
+            synonym_norm, lower_columns, scorer=fuzz.token_sort_ratio
+        )
+        if result and result[1] >= threshold:
+            return lower_to_original[result[0]]
+
     return None
 
 
@@ -46,57 +84,94 @@ def find_columns_with_positions(text, schema,
                                  synonyms_path="knowledge/synonyms.json",
                                  stopwords_path="knowledge/stopwords.json",
                                  threshold=72):
-    synonyms = _load_json(synonyms_path, {})
-    stopwords = set(_load_json(stopwords_path, []) if os.path.exists(stopwords_path) else [])
+    if not text or not schema:
+        return []
 
-    raw_tokens = [{"word": m.group(), "position": m.start()}
-                  for m in re.finditer(r"[a-z0-9]+", text.lower())]
+    synonyms  = load_synonyms(synonyms_path)
+    stopwords = set(load_stopwords(stopwords_path))
+
+    raw_tokens = [
+        {"word": m.group(), "position": m.start()}
+        for m in re.finditer(r"[a-z0-9]+", text.lower())
+    ]
     if not raw_tokens:
         return []
 
     core_tokens = [t for t in raw_tokens if t["word"] not in stopwords] or raw_tokens
 
     col_specs = []
-    for col in schema:
+    for col in schema.keys():
         norm = _normalize(col)
         if not norm:
             continue
-        words = norm.split()
-        core = [w for w in words if w not in stopwords] or words
-        col_specs.append({"column": col, "core": core, "phrase": " ".join(core)})
+        norm_words  = norm.split()
+        core_words  = [w for w in norm_words if w not in stopwords] or norm_words
+        col_specs.append({
+            "column":      col,
+            "core_words":  core_words,
+            "core_phrase": " ".join(core_words),
+        })
 
-    best = {}
+    best_by_column = {}
     n_tokens = len(core_tokens)
+    max_n    = max((len(spec["core_words"]) for spec in col_specs), default=1)
 
-    for n in range(min(max((len(s["core"]) for s in col_specs), default=1), n_tokens), 0, -1):
-        sized = [s for s in col_specs if len(s["core"]) == n]
-        for i in range(n_tokens - n + 1):
-            window = core_tokens[i:i + n]
-            phrase = " ".join(t["word"] for t in window)
-            pos = window[0]["position"]
-            candidates = {phrase}
-            if n == 1 and phrase in synonyms:
-                candidates.add(_normalize(synonyms[phrase]))
-            for spec in sized:
-                score = max(fuzz.token_sort_ratio(c, spec["phrase"]) for c in candidates)
-                if score >= threshold:
-                    prev = best.get(spec["column"])
-                    if prev is None or score > prev["score"]:
-                        best[spec["column"]] = {"column": spec["column"],
-                                                 "position": pos, "score": score}
-
-    full_phrase = " ".join(t["word"] for t in core_tokens)
-    for spec in col_specs:
-        if spec["column"] in best:
+    for n in range(min(max_n, n_tokens), 0, -1):
+        cols_of_size = [s for s in col_specs if len(s["core_words"]) == n]
+        if not cols_of_size:
             continue
-        score = fuzz.token_set_ratio(full_phrase, spec["phrase"])
+
+        for i in range(n_tokens - n + 1):
+            window     = core_tokens[i:i + n]
+            phrase     = " ".join(t["word"] for t in window)
+            phrase_pos = window[0]["position"]
+
+            phrase_candidates = {phrase}
+            if n == 1 and phrase in synonyms:
+                phrase_candidates.add(_normalize(synonyms[phrase]))
+
+            for spec in cols_of_size:
+                score = max(
+                    fuzz.token_sort_ratio(cand, spec["core_phrase"])
+                    for cand in phrase_candidates
+                )
+                if score >= threshold:
+                    prev = best_by_column.get(spec["column"])
+                    if prev is None or score > prev["score"]:
+                        best_by_column[spec["column"]] = {
+                            "column":   spec["column"],
+                            "position": phrase_pos,
+                            "score":    score,
+                        }
+
+    question_core_phrase = " ".join(t["word"] for t in core_tokens)
+    for spec in col_specs:
+        if spec["column"] in best_by_column:
+            continue
+        score = fuzz.token_set_ratio(question_core_phrase, spec["core_phrase"])
         if score < max(threshold, 80):
             continue
-        pos = core_tokens[0]["position"]
-        for t in core_tokens:
-            if any(fuzz.ratio(t["word"], w) >= 85 for w in spec["core"]):
-                pos = t["position"]
-                break
-        best[spec["column"]] = {"column": spec["column"], "position": pos, "score": score}
 
-    return sorted(best.values(), key=lambda r: (-r["score"], r["position"]))
+        position = None
+        for token in core_tokens:
+            for cw in spec["core_words"]:
+                if fuzz.ratio(token["word"], cw) >= 85:
+                    position = token["position"]
+                    break
+            if position is not None:
+                break
+        if position is None:
+            position = core_tokens[0]["position"]
+
+        best_by_column[spec["column"]] = {
+            "column":   spec["column"],
+            "position": position,
+            "score":    score,
+        }
+
+    return sorted(best_by_column.values(), key=lambda r: (-r["score"], r["position"]))
+
+
+def find_columns_in_text(text, schema, synonyms_path="knowledge/synonyms.json"):
+    matches = find_columns_with_positions(text, schema, synonyms_path)
+    return [m["column"] for m in matches]

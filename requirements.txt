@@ -1,3 +1,13 @@
+flask
+gunicorn
 pandas
 scikit-learn
 rapidfuzz
+sqlalchemy
+psycopg2-binary
+pytest
+openpyxl
+markdown
+response
+weasyprint
+pypandoc_binary

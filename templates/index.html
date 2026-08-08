@@ -1,0 +1,51 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Natural Language to SQL</title>
+    <link rel="icon" type="image/png" href="/static/favicon.png" />
+    <link rel="stylesheet" href="/static/css/base.css" />
+    <link rel="stylesheet" href="/static/css/navbar.css" />
+    <link rel="stylesheet" href="/static/css/modal.css" />
+    <link rel="stylesheet" href="/static/css/upload.css" />
+    <link rel="stylesheet" href="/static/css/query-results.css" />
+  </head>
+  <body>
+{% include "partials/navbar.html" %}
+
+{% include "partials/about_modal.html" %}
+
+{% include "partials/help_modal.html" %}
+
+    <div class="container">
+      <div class="header">
+        <h1>Natural Language to SQL</h1>
+        <p>
+          Upload a CSV or Excel dataset and ask questions in plain English — the
+          AI generates and runs the SQL for you.
+        </p>
+      </div>
+
+      <div
+        id="global-error"
+        class="error-box"
+        style="display: none; margin-bottom: 16px"
+      ></div>
+
+{% include "partials/upload_card.html" %}
+
+{% include "partials/preview_card.html" %}
+
+{% include "partials/query_card.html" %}
+    </div>
+
+    <script src="/static/js/dom.js"></script>
+    <script src="/static/js/utils.js"></script>
+    <script src="/static/js/upload.js"></script>
+    <script src="/static/js/query.js"></script>
+    <script src="/static/js/navbar.js"></script>
+    <script src="/static/js/modals.js"></script>
+  </body>
+</html>

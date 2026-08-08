@@ -1,0 +1,1153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <title>NL2SQL — Quick Pipeline Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      :root {
+        --mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+        --sans:
+          "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          sans-serif;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        font-family: var(--sans);
+        background: #fff;
+        color: #1a1a1a;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      /* ─── Header ─── */
+      .topbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 14px 32px;
+        border-bottom: 1px solid #e8e8e8;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(8px);
+        position: sticky;
+        top: 0;
+        z-index: 60;
+      }
+      .topbar-left {
+        min-width: 0;
+      }
+      .title {
+        font-size: 0.95rem;
+        font-weight: 700;
+        color: #111;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .sub {
+        font-size: 0.78rem;
+        color: #888;
+        margin-top: 1px;
+      }
+      .topbar-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+        flex-shrink: 0;
+      }
+      .back-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #374151;
+        text-decoration: none;
+        border: 1px solid #e0e0e0;
+        border-radius: 7px;
+        padding: 6px 13px;
+        background: #fff;
+        transition:
+          background 0.15s,
+          color 0.15s,
+          box-shadow 0.15s;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+      }
+      .back-btn:hover {
+        background: #f5f5f5;
+        color: #111;
+      }
+      .step-counter {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: #555;
+        background: #f3f4f6;
+        border-radius: 20px;
+        padding: 4px 13px;
+        white-space: nowrap;
+      }
+      .step-counter span {
+        color: #111;
+      }
+      .progress-track {
+        height: 3px;
+        width: 100%;
+        background: #f0f0f0;
+      }
+      .progress-fill {
+        height: 100%;
+        width: 0%;
+        background: linear-gradient(90deg, #6366f1, #22c55e);
+        transition: width 0.3s ease;
+      }
+
+      /* ─── Example banner ─── */
+      .example-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        flex-wrap: wrap;
+        padding: 14px 32px;
+        background: #fafafa;
+        border-bottom: 1px solid #e8e8e8;
+        font-size: 0.85rem;
+      }
+      .example-bar .q {
+        font-style: italic;
+        color: #111;
+        font-weight: 500;
+        background: #fff;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 7px 14px;
+        max-width: 100%;
+      }
+      .example-bar .q::before {
+        content: '"';
+        color: #c7c7cf;
+        margin-right: 2px;
+      }
+      .example-bar .q::after {
+        content: '"';
+        color: #c7c7cf;
+        margin-left: 2px;
+      }
+      .example-bar .arrow {
+        color: #9ca3af;
+        flex-shrink: 0;
+      }
+      .example-bar .sql-preview {
+        font-family: var(--mono);
+        font-size: 0.76rem;
+        color: #374151;
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 7px 12px;
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+
+      /* ─── Mini pipeline map ─── */
+      .mini-map {
+        display: flex;
+        align-items: center;
+        gap: 0;
+        padding: 16px 32px;
+        overflow-x: auto;
+        border-bottom: 1px solid #e8e8e8;
+        scrollbar-width: thin;
+        -webkit-overflow-scrolling: touch;
+      }
+      .mm-node {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        flex-shrink: 0;
+        cursor: pointer;
+        padding: 6px 10px;
+        border-radius: 8px;
+        transition: background 0.15s;
+      }
+      .mm-node:hover {
+        background: #f5f5f5;
+      }
+      .mm-dot {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid #d1d5db;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: #9ca3af;
+        transition: all 0.25s;
+        flex-shrink: 0;
+      }
+      .mm-node.active .mm-dot {
+        background: #111;
+        border-color: #111;
+        color: #fff;
+        transform: scale(1.15);
+      }
+      .mm-node.done .mm-dot {
+        background: #22c55e;
+        border-color: #22c55e;
+        color: #fff;
+      }
+      .mm-label {
+        font-size: 0.6rem;
+        color: #9ca3af;
+        font-family: var(--mono);
+        font-weight: 600;
+        white-space: nowrap;
+        transition: color 0.25s;
+      }
+      .mm-node.active .mm-label {
+        color: #111;
+        font-weight: 700;
+      }
+      .mm-node.done .mm-label {
+        color: #22c55e;
+      }
+      .mm-arrow {
+        color: #d1d5db;
+        font-size: 0.8rem;
+        flex-shrink: 0;
+        padding: 0 3px;
+        padding-bottom: 16px;
+      }
+      .mm-arrow.done {
+        color: #22c55e;
+      }
+
+      /* ─── Main content ─── */
+      .content {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 32px 60px;
+      }
+      .panel {
+        animation: fade 0.3s ease both;
+      }
+      @keyframes fade {
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .file-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        padding: 7px 14px;
+        margin-bottom: 18px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+        max-width: 100%;
+      }
+      .file-icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.63rem;
+        font-weight: 800;
+        color: #fff;
+        flex-shrink: 0;
+      }
+      .file-name {
+        font-family: var(--mono);
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: #111;
+        overflow-wrap: anywhere;
+      }
+
+      .heading {
+        font-size: 1.35rem;
+        font-weight: 800;
+        color: #111;
+        margin-bottom: 8px;
+        line-height: 1.3;
+      }
+      .why {
+        font-size: 0.92rem;
+        color: #4b5563;
+        line-height: 1.65;
+        margin-bottom: 24px;
+      }
+      .why code {
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+        padding: 1px 6px;
+        font-family: var(--mono);
+        font-size: 0.85em;
+        color: #111;
+      }
+
+      .block {
+        margin-bottom: 18px;
+      }
+      .label {
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.09em;
+        text-transform: uppercase;
+        color: #9ca3af;
+        margin-bottom: 8px;
+      }
+      .box {
+        background: #f9fafb;
+        border: 1px solid #e5e7eb;
+        border-radius: 10px;
+        padding: 14px 18px;
+        font-size: 0.9rem;
+        color: #374151;
+        line-height: 1.6;
+        overflow-wrap: anywhere;
+      }
+
+      .code-wrap {
+        position: relative;
+      }
+      .code {
+        background: #1e1e2e;
+        border-radius: 10px;
+        padding: 16px 20px;
+        font-family: var(--mono);
+        font-size: 0.82rem;
+        line-height: 1.7;
+        color: #cdd6f4;
+        white-space: pre;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .code .kw {
+        color: #89b4fa;
+        font-weight: 600;
+      }
+      .code .tbl {
+        color: #a6e3a1;
+      }
+      .code .col {
+        color: #f9e2af;
+      }
+      .code .str {
+        color: #f38ba8;
+      }
+      .code .num {
+        color: #fab387;
+      }
+      .copy-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #2d2d3d;
+        color: #9ca3af;
+        border: 1px solid #3f3f52;
+        border-radius: 6px;
+        padding: 4px 9px;
+        font-size: 0.68rem;
+        font-weight: 600;
+        font-family: var(--sans);
+        cursor: pointer;
+        transition: all 0.15s;
+      }
+      .copy-btn:hover {
+        background: #3f3f52;
+        color: #fff;
+      }
+      .copy-btn.copied {
+        background: #15803d;
+        color: #fff;
+        border-color: #15803d;
+      }
+
+      .tokens {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .token {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        background: #fff;
+        border: 1px solid #d1d5db;
+        border-radius: 20px;
+        padding: 4px 12px;
+        font-size: 0.82rem;
+        font-weight: 500;
+        color: #374151;
+      }
+      .token.op {
+        border-color: #f97316;
+        color: #f97316;
+        background: #fff7ed;
+      }
+      .token.val {
+        border-color: #3b82f6;
+        color: #1d4ed8;
+        background: #eff6ff;
+      }
+      .token.cat {
+        border-color: #8b5cf6;
+        color: #6d28d9;
+        background: #f5f3ff;
+      }
+      .token.kw {
+        border-color: #22c55e;
+        color: #15803d;
+        background: #f0fdf4;
+      }
+
+      .table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        border-radius: 10px;
+      }
+      .map-table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 420px;
+      }
+      .map-table th {
+        text-align: left;
+        font-size: 0.72rem;
+        font-weight: 700;
+        color: #6b7280;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 0 10px 8px 0;
+        border-bottom: 1px solid #e5e7eb;
+      }
+      .map-table td {
+        padding: 8px 10px 8px 0;
+        font-size: 0.85rem;
+        color: #374151;
+        border-bottom: 1px solid #f3f4f6;
+        white-space: nowrap;
+      }
+      .map-table tr:last-child td {
+        border-bottom: none;
+      }
+      .map-table code {
+        background: #f3f4f6;
+        border: 1px solid #e5e7eb;
+        border-radius: 4px;
+        padding: 2px 7px;
+        font-family: var(--mono);
+        font-size: 0.82rem;
+        color: #111;
+      }
+
+      .result-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.86rem;
+        min-width: 480px;
+      }
+      .result-table th {
+        background: #f9fafb;
+        text-align: left;
+        padding: 9px 12px;
+        font-weight: 700;
+        color: #374151;
+        border-bottom: 2px solid #e5e7eb;
+        white-space: nowrap;
+      }
+      .result-table td {
+        padding: 9px 12px;
+        color: #374151;
+        border-bottom: 1px solid #f3f4f6;
+        white-space: nowrap;
+      }
+      .result-table tr:last-child td {
+        border-bottom: none;
+      }
+      .badge-positive {
+        display: inline-block;
+        font-size: 0.72rem;
+        font-weight: 600;
+        color: #dc2626;
+        background: #fef2f2;
+        border: 1px solid #fecaca;
+        border-radius: 4px;
+        padding: 2px 8px;
+      }
+
+      .checks {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      .check-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        font-size: 0.85rem;
+        color: #374151;
+      }
+      .check-icon {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: #dcfce7;
+        color: #16a34a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        font-weight: 800;
+        flex-shrink: 0;
+      }
+
+      .next-file {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 20px;
+        font-size: 0.83rem;
+        color: #6b7280;
+        flex-wrap: wrap;
+      }
+      .next-file strong {
+        color: #111;
+        font-family: var(--mono);
+        word-break: break-word;
+      }
+
+      /* ─── Content ─── */
+      .content {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 40px 32px 100px; /* bottom padding 60px থেকে 100px করা হয়েছে */
+      }
+
+      /* ─── Nav bar ─── */
+      .nav-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0; /* ← যোগ করুন */
+        right: 0; /* ← যোগ করুন */
+        background: #fff;
+        border-top: 1px solid #e8e8e8;
+        padding: 14px 32px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        z-index: 50;
+        padding-bottom: calc(14px + env(safe-area-inset-bottom));
+      }
+      .nav-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 18px;
+        border-radius: 8px;
+        font-size: 0.86rem;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        transition: all 0.15s;
+        white-space: nowrap;
+      }
+      .nav-btn.prev {
+        background: #f3f4f6;
+        color: #374151;
+      }
+      .nav-btn.prev:hover:not(:disabled) {
+        background: #e5e7eb;
+      }
+      .nav-btn.next {
+        background: #111;
+        color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+      }
+      .nav-btn.next:hover:not(:disabled) {
+        background: #333;
+      }
+      .nav-btn:disabled {
+        opacity: 0.35;
+        cursor: not-allowed;
+      }
+      .nav-dots {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 36vw;
+      }
+      .nav-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #e5e7eb;
+        transition: all 0.25s;
+        flex-shrink: 0;
+      }
+      .nav-dot.active {
+        background: #111;
+        transform: scale(1.4);
+      }
+      .nav-dot.done {
+        background: #22c55e;
+      }
+
+      a:focus-visible,
+      button:focus-visible,
+      .mm-node:focus-visible {
+        outline: 2px solid #6366f1;
+        outline-offset: 2px;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.001ms !important;
+          transition-duration: 0.001ms !important;
+        }
+      }
+
+      /* ─── Mobile ─── */
+      @media (max-width: 700px) {
+        .content {
+          padding: 24px 18px 52px;
+        }
+        .topbar {
+          padding: 10px 14px;
+        }
+        .example-bar {
+          padding: 10px 14px;
+        }
+        .mini-map {
+          padding: 10px 14px;
+        }
+        .nav-bar {
+          padding: 10px 14px;
+        }
+      }
+      @media (max-width: 520px) {
+        .topbar {
+          flex-wrap: wrap;
+        }
+        .sub {
+          display: none;
+        }
+        .title {
+          font-size: 0.88rem;
+        }
+        .topbar-right {
+          flex-direction: row;
+          align-items: center;
+          gap: 8px;
+        }
+        .back-btn {
+          padding: 5px 10px;
+          font-size: 0.74rem;
+        }
+        .step-counter {
+          font-size: 0.72rem;
+          padding: 4px 10px;
+        }
+        .example-bar {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 8px;
+        }
+        .example-bar .q,
+        .example-bar .sql-preview {
+          width: 100%;
+        }
+        .example-bar .arrow {
+          display: none;
+        }
+        .heading {
+          font-size: 1.08rem;
+        }
+        .why {
+          font-size: 0.86rem;
+        }
+        .file-name {
+          font-size: 0.78rem;
+        }
+        .nav-btn {
+          padding: 9px 14px;
+          font-size: 0.8rem;
+        }
+        .nav-btn .full {
+          display: none;
+        }
+        .nav-dots {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="topbar-left">
+        <div class="title">NL2SQL-366 — Quick Pipeline Demo</div>
+        <div class="sub">The core flow, one worked example</div>
+      </div>
+      <div class="topbar-right">
+        <a class="back-btn" href="/">← Back to App</a>
+        <div class="step-counter">
+          Step <span id="cur">1</span> of <span id="tot">?</span>
+        </div>
+      </div>
+    </header>
+    <div class="progress-track">
+      <div class="progress-fill" id="progress"></div>
+    </div>
+
+    <div class="example-bar">
+      <span class="q">Show female patients older than 30 from Dhaka</span>
+      <span class="arrow">→</span>
+      <span class="sql-preview"
+        >SELECT * FROM "data" WHERE "Gender"='Female' AND "Age">30 AND
+        "Location"='Dhaka'</span
+      >
+    </div>
+
+    <nav class="mini-map" id="mini-map" aria-label="Pipeline steps"></nav>
+
+    <div class="content"><div id="panel"></div></div>
+
+    <nav class="nav-bar">
+      <button class="nav-btn prev" id="prevBtn" onclick="go(-1)">
+        ← <span class="full">Previous</span>
+      </button>
+      <div class="nav-dots" id="dots"></div>
+      <button class="nav-btn next" id="nextBtn" onclick="go(1)">
+        <span class="full">Next</span> →
+      </button>
+    </nav>
+
+    <script>
+      // ─── The core pipeline — 10 steps, one running example ───
+      const STEPS = [
+        {
+          icon: "CSV",
+          color: "#0ea5e9",
+          file: "1. CSV or Excel upload → schema",
+          title: "Upload a dataset",
+          why: `Before any question can be answered, a CSV or Excel is uploaded and loaded into a database table. The system reads every column's name, type, and a few sample values — this becomes the schema every later step relies on.`,
+          blocks: [
+            {
+              label: "Detected schema",
+              type: "code-plain",
+              content: `Name      → text     (A, B, C)
+Gender    → text     (Female, Male)
+Age       → number   (35, 28, 42)
+Location  → text     (Dhaka, Chattogram)
+Dengue    → text     (Positive, Negative)`,
+            },
+          ],
+          next: "User asks a question",
+        },
+        {
+          icon: "Q",
+          color: "#6b7280",
+          file: "2. User question",
+          title: "Ask in plain English",
+          why: `No SQL needed. The user just types a question the way they'd ask a colleague — this is the only input for the rest of the pipeline.`,
+          blocks: [
+            {
+              label: "Input",
+              type: "box",
+              content: `"Show female patients older than 30 from Dhaka."`,
+            },
+          ],
+          next: "tokenizer.py",
+        },
+        {
+          icon: "TK",
+          color: "#f59e0b",
+          file: "3. core/tokenizer.py",
+          title: "Clean & tokenize",
+          why: `The sentence is lowercased, punctuation is stripped, and filler words like <code>show</code> / <code>from</code> are removed using a stopword list. What's left are the words that actually carry meaning.`,
+          blocks: [
+            {
+              label: "Tokens kept",
+              type: "tokens",
+              items: [
+                { text: "female", cls: "cat" },
+                { text: "patients", cls: "" },
+                { text: "older", cls: "op" },
+                { text: "than", cls: "op" },
+                { text: "30", cls: "val" },
+                { text: "dhaka", cls: "cat" },
+              ],
+            },
+          ],
+          next: "intent_detector.py",
+        },
+        {
+          icon: "ML",
+          color: "#3b82f6",
+          file: "4. core/intent_detector.py",
+          title: "Detect the intent",
+          why: `A pre-trained TF-IDF + Naive Bayes model (trained once, offline, on 100k examples) reads the question and predicts which SQL shape it needs: <code>SELECT</code>, <code>COUNT</code>, <code>AVG</code>, <code>MAX</code>, <code>MIN</code>, or <code>SUM</code>. A rule-based check then confirms the model's guess by looking for tell-tale words in the question.`,
+          blocks: [
+            {
+              label: "Why SELECT",
+              type: "mapping",
+              rows: [
+                {
+                  from: '"show"',
+                  to: "SELECT",
+                  note: "listing verb, no aggregation word present",
+                },
+                {
+                  from: 'no "how many" / "average" / "total"',
+                  to: "SELECT",
+                  note: "rules out COUNT / AVG / SUM",
+                },
+              ],
+            },
+            {
+              label: "Predicted intent",
+              type: "tokens",
+              items: [{ text: "SELECT", cls: "kw" }],
+            },
+          ],
+          next: "attribute_matcher.py",
+        },
+        {
+          icon: "AM",
+          color: "#8b5cf6",
+          file: "5. core/attribute_matcher.py",
+          title: "Match words to columns",
+          why: `Users don't say column names — they say "older" or "dhaka". Fuzzy matching plus a 300+ entry synonym dictionary map each meaningful word to a real column in the uploaded dataset.`,
+          blocks: [
+            {
+              label: "Word → Column",
+              type: "mapping",
+              rows: [
+                {
+                  from: "female",
+                  to: "Gender",
+                  note: "matches a sample value",
+                },
+                { from: "older than 30", to: "Age", note: "synonym + numeric" },
+                {
+                  from: "dhaka",
+                  to: "Location",
+                  note: "matches a sample value",
+                },
+              ],
+            },
+          ],
+          next: "operator_detector.py",
+        },
+        {
+          icon: "OP",
+          color: "#f97316",
+          file: "6. core/operator_detector.py",
+          title: "Find the comparison operator",
+          why: `Phrases like "older than" need to become real SQL operators. A phrase dictionary maps natural comparisons — "at least" → <code>&gt;=</code>, "between" → <code>BETWEEN</code> — onto their symbols.`,
+          blocks: [
+            {
+              label: "Detected operators",
+              type: "mapping",
+              rows: [
+                { from: '"older than"', to: ">", note: "numeric comparison" },
+                {
+                  from: '"female" / "dhaka"',
+                  to: "=",
+                  note: "categorical equality",
+                },
+              ],
+            },
+          ],
+          next: "value_matcher.py",
+        },
+        {
+          icon: "VM",
+          color: "#06b6d4",
+          file: "7. core/value_matcher.py",
+          title: "Extract the filter values",
+          why: `With columns and operators known, this step finds the actual values to filter by — pulling "30" out as a number, and matching "Female" / "Dhaka" against the schema's known sample values.`,
+          blocks: [
+            {
+              label: "Filter conditions built",
+              type: "mapping",
+              rows: [
+                { from: "Gender", to: "= 'Female'", note: "categorical" },
+                { from: "Age", to: "> 30", note: "numeric" },
+                { from: "Location", to: "= 'Dhaka'", note: "categorical" },
+              ],
+            },
+          ],
+          next: "sql_generator.py",
+        },
+        {
+          icon: "GN",
+          color: "#22c55e",
+          file: "8. core/sql_generator.py",
+          title: "Assemble the SQL",
+          why: `All the pieces — intent, columns, operators, values — are combined into one valid SQL string. Identifiers are double-quoted so column names with spaces or reserved words still work.`,
+          blocks: [
+            {
+              label: "Generated SQL",
+              type: "code-sql",
+              sql: `<span class="kw">SELECT</span> *
+<span class="kw">FROM</span>   <span class="tbl">"data"</span>
+<span class="kw">WHERE</span>  <span class="col">"Gender"</span>   = <span class="str">'Female'</span>
+  <span class="kw">AND</span>  <span class="col">"Age"</span>      > <span class="num">30</span>
+  <span class="kw">AND</span>  <span class="col">"Location"</span> = <span class="str">'Dhaka'</span>;`,
+            },
+          ],
+          next: "sql_validator.py",
+        },
+        {
+          icon: "VL",
+          color: "#ef4444",
+          file: "9. core/sql_validator.py",
+          title: "Validate before running",
+          why: `Before touching the database, the query is checked: read-only, no dangerous keywords, no injection attempts, and every column actually exists in the schema. Only then is it safe to execute.`,
+          blocks: [
+            {
+              label: "Safety checks",
+              type: "checks",
+              items: [
+                { label: "Starts with SELECT (read-only)" },
+                { label: "No DROP / DELETE / UPDATE / INSERT" },
+                { label: "All columns exist in the uploaded schema" },
+              ],
+            },
+          ],
+          next: "sql_executor.py",
+        },
+        {
+          icon: "EX",
+          color: "#64748b",
+          file: "10. core/sql_executor.py",
+          title: "Run it & return the result",
+          why: `The validated SQL runs against SQLite (local) or PostgreSQL (production). Matching rows come back and are sent to the browser as the final answer.`,
+          blocks: [{ label: "Matching rows (2 of 3 total)", type: "result" }],
+          next: null,
+        },
+      ];
+
+      let current = 0;
+
+      function esc(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }
+
+      const registry = {};
+      let regCount = 0;
+      function reg(text) {
+        const id = "c" + regCount++;
+        registry[id] = text;
+        return id;
+      }
+      function copyIt(id, btn) {
+        const text = registry[id] || "";
+        const done = () => {
+          const orig = btn.textContent;
+          btn.textContent = "Copied ✓";
+          btn.classList.add("copied");
+          setTimeout(() => {
+            btn.textContent = orig;
+            btn.classList.remove("copied");
+          }, 1300);
+        };
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(done).catch(done);
+        } else {
+          const ta = document.createElement("textarea");
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          try {
+            document.execCommand("copy");
+          } catch (e) {}
+          document.body.removeChild(ta);
+          done();
+        }
+      }
+
+      function renderBlock(b) {
+        let html = `<div class="block"><div class="label">${b.label}</div>`;
+        if (b.type === "box") {
+          html += `<div class="box">${b.content}</div>`;
+        } else if (b.type === "code-plain") {
+          const id = reg(b.content);
+          html += `<div class="code-wrap"><div class="code">${esc(b.content)}</div>
+      <button class="copy-btn" onclick="copyIt('${id}', this)">Copy</button></div>`;
+        } else if (b.type === "tokens") {
+          html += `<div class="tokens">`;
+          b.items.forEach(
+            (t) => (html += `<span class="token ${t.cls}">${t.text}</span>`),
+          );
+          html += `</div>`;
+        } else if (b.type === "mapping") {
+          html += `<div class="box table-scroll" style="padding:12px 16px;">
+      <table class="map-table"><thead><tr><th>Says</th><th>Maps to</th><th>Why</th></tr></thead><tbody>`;
+          b.rows.forEach((r) => {
+            html += `<tr><td><code>${r.from}</code></td><td><code>${r.to}</code></td><td style="color:#6b7280;font-size:0.8rem">${r.note}</td></tr>`;
+          });
+          html += `</tbody></table></div>`;
+        } else if (b.type === "code-sql") {
+          const plain = b.sql.replace(/<[^>]+>/g, "");
+          const id = reg(plain);
+          html += `<div class="code-wrap"><div class="code">${b.sql}</div>
+      <button class="copy-btn" onclick="copyIt('${id}', this)">Copy</button></div>`;
+        } else if (b.type === "checks") {
+          html += `<div class="checks">`;
+          b.items.forEach((c) => {
+            html += `<div class="check-item"><span class="check-icon">✓</span><span>${c.label}</span></div>`;
+          });
+          html += `</div>`;
+        } else if (b.type === "result") {
+          html += `<div class="box table-scroll" style="padding:0;">
+      <table class="result-table">
+        <thead><tr><th>Name</th><th>Gender</th><th>Age</th><th>Location</th><th>Dengue</th></tr></thead>
+        <tbody>
+          <tr><td>A</td><td>Female</td><td>35</td><td>Dhaka</td><td><span class="badge-positive">Positive</span></td></tr>
+          <tr><td>C</td><td>Female</td><td>42</td><td>Dhaka</td><td><span class="badge-positive">Positive</span></td></tr>
+        </tbody>
+      </table></div>`;
+        }
+        html += `</div>`;
+        return html;
+      }
+
+      function renderPanel() {
+        Object.keys(registry).forEach((k) => delete registry[k]);
+        regCount = 0;
+        const s = STEPS[current];
+        let html = `<div class="panel">`;
+        html += `<div class="file-badge"><div class="file-icon" style="background:${s.color}">${s.icon}</div><span class="file-name">${s.file}</span></div>`;
+        html += `<div class="heading">${s.title}</div>`;
+        html += `<div class="why">${s.why}</div>`;
+        s.blocks.forEach((b) => {
+          html += renderBlock(b);
+        });
+        if (s.next) {
+          html += `<div class="next-file"><span>↓</span><span>Next:</span><strong>${s.next}</strong></div>`;
+        } else {
+          html += `<div class="next-file" style="color:#22c55e;"><span>✓</span><span>Done — result delivered to the browser.</span></div>`;
+        }
+        html += `</div>`;
+        document.getElementById("panel").innerHTML = html;
+      }
+
+      function renderMiniMap() {
+        const el = document.getElementById("mini-map");
+        let html = "";
+        STEPS.forEach((s, i) => {
+          const cls = i < current ? "done" : i === current ? "active" : "";
+          html += `<div class="mm-node ${cls}" onclick="jump(${i})" title="${s.file}">
+      <div class="mm-dot">${i < current ? "✓" : i + 1}</div>
+      <div class="mm-label">${s.icon}</div>
+    </div>`;
+          if (i < STEPS.length - 1)
+            html += `<div class="mm-arrow ${i < current ? "done" : ""}">›</div>`;
+        });
+        el.innerHTML = html;
+        const activeNode = el.querySelectorAll(".mm-node")[current];
+        if (activeNode)
+          activeNode.scrollIntoView({
+            inline: "center",
+            behavior: "smooth",
+            block: "nearest",
+          });
+      }
+
+      function renderDots() {
+        const el = document.getElementById("dots");
+        let html = "";
+        STEPS.forEach((_, i) => {
+          const cls = i < current ? "done" : i === current ? "active" : "";
+          html += `<div class="nav-dot ${cls}" onclick="jump(${i})"></div>`;
+        });
+        el.innerHTML = html;
+      }
+
+      function renderCounter() {
+        document.getElementById("cur").textContent = current + 1;
+        document.getElementById("tot").textContent = STEPS.length;
+        document.getElementById("progress").style.width =
+          ((current + 1) / STEPS.length) * 100 + "%";
+      }
+
+      function update() {
+        renderPanel();
+        renderMiniMap();
+        renderDots();
+        renderCounter();
+        document.getElementById("prevBtn").disabled = current === 0;
+        document.getElementById("nextBtn").disabled =
+          current === STEPS.length - 1;
+      }
+
+      function go(dir) {
+        const n = current + dir;
+        if (n < 0 || n >= STEPS.length) return;
+        current = n;
+        update();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+      function jump(i) {
+        current = i;
+        update();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowRight" || e.key === "ArrowDown") go(1);
+        if (e.key === "ArrowLeft" || e.key === "ArrowUp") go(-1);
+      });
+
+      update();
+    </script>
+  </body>
+</html>
